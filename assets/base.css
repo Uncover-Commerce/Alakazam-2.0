@@ -11,6 +11,10 @@
   --alakazam-dark-blue:#021140;
   --alakazam-light-blue:#354067;
   --alakazam-orange: #fc6505;
+  --alakazam-blue: #46D8E0;
+  --alakazam-orange-gradient: linear-gradient(to right, #ff3700, #ff6200, #ee864a);
+  --alakazam-blue-gradient: linear-gradient(to right, #354067, #5C4CE0, #8C4CE0 );
+
 }
 
 .product-card-wrapper .card,
@@ -1290,7 +1294,7 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .button--secondary:after {
-  --border-opacity: var(--buttons-border-opacity);
+ /* --border-opacity: var(--buttons-border-opacity);*/
 }
 
 .button:focus-visible,
@@ -3717,3 +3721,26 @@ details-disclosure > details {
   width: 2rem;
   margin-right: 1rem;
 } 
+
+
+
+.button.button--primary , .button.button--secondary {
+  background: var(--alakazam-orange-gradient);
+  transition: background 0.2s ease-in-out;
+  &:hover {
+  background: var(--alakazam-blue-gradient);
+  border: 1px solid var(--alakazam-blue);
+  }
+  
+}
+
+.button.button--secondary {
+  color: white;
+  background: var(--alakazam-orange-gradient);
+  transition: background 0.2s ease-in-out;
+  &:hover {
+  background: var(--alakazam-blue-gradient);
+  border: 1px solid var(--alakazam-blue);
+  }
+
+}
