@@ -145,6 +145,7 @@
       </div>
       <div class="card__content">
         <div class="card__information">
+          <span>{{ card_product.type }}</span>
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
@@ -307,7 +308,8 @@
                   aria-haspopup="dialog"
                   aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                   data-product-url="{{ card_product.url }}"
-                >                  {% render 'icon-hat' %}
+                >
+                  {% render 'icon-hat' %}
 
                   {{ 'products.product.choose_options' | t }}
                   {%- if horizontal_quick_add -%}
@@ -367,7 +369,8 @@
                     {% if card_product.selected_or_first_available_variant.available == false %}
                       disabled
                     {% endif %}
-                  >                  {% render 'icon-hat' %}
+                  >
+                    {% render 'icon-hat' %}
 
                     <span>
                       {%- if card_product.selected_or_first_available_variant.available -%}
@@ -438,7 +441,7 @@
                   aria-haspopup="dialog"
                   aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                   data-product-url="{{ card_product.url }}"
-                  >
+                >
                   {% render 'icon-hat' %}
                   {{ 'products.product.choose_options' | t }}
                   {%- render 'loading-spinner' -%}
@@ -461,7 +464,7 @@
                     class="quick-add-modal__toggle"
                     aria-label="{{ 'accessibility.close' | t }}"
                   >
-                  {% render 'icon-hat' %}
+                    {% render 'icon-hat' %}
                     {{- 'icon-close.svg' | inline_asset_content -}}
                   </button>
                   <div
@@ -609,6 +612,7 @@
       </div>
       <div class="card__content">
         <div class="card__information">
+          {{ card_product.type }}
           <h3 class="card__heading card__heading--placeholder{% if settings.card_style == 'standard' %} h5{% endif %}">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
               {{ 'onboarding.product_title' | t }}
