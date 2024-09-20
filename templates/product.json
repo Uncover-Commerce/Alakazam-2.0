@@ -86,6 +86,19 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "complementary_mJebzd": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
         }
       },
       "block_order": [
@@ -101,7 +114,8 @@
         "growave_loyalty_wishlist_block_product_fave_button_xXYcib",
         "difficulty_FAtwyA",
         "description",
-        "share"
+        "share",
+        "complementary_mJebzd"
       ],
       "settings": {
         "enable_sticky_info": true,
