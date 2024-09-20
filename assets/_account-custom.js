@@ -9,6 +9,8 @@ for (let index = 0; index < navTabs.length; index++) {
   const tab = navTabs[index];
 
   tab.addEventListener("click", () => {
+    console.log("Clicked tab:", tab.innerHTML); // Debugging
+
     winTabs.forEach((win) => {
       win.classList.remove("tab-show");
     });
@@ -18,7 +20,14 @@ for (let index = 0; index < navTabs.length; index++) {
     });
 
     tab.classList.add("nav-active");
-    winTabs[index].classList.add("tab-show");
+    
+    // Check if winTabs[index] exists before adding class
+    if (winTabs[index]) {
+      winTabs[index].classList.add("tab-show");
+      console.log("Showing tab:", winTabs[index].innerHTML); // Debugging
+    } else {
+      console.error("No matching content tab for index:", index); // Debugging
+    }
 
     let sub = tab.innerHTML;
 
@@ -27,6 +36,9 @@ for (let index = 0; index < navTabs.length; index++) {
     }
     if (tab.innerHTML.includes("Loyalty Points")) {
       sub = "Loyalty Points";
+    }
+    if (tab.innerHTML.includes("Redeem")) { // Add this line for "Redeem" tab
+      sub = "Redeem";
     }
     subtitile.innerHTML = "| " + sub;
   });
