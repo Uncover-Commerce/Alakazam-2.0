@@ -2610,7 +2610,7 @@ details[open] .header__icon-close {
 
 account-icon {
   display: -webkit-inline-box;
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 990px) {
     &:before {
       content: 'Account';
       padding-right: 1rem;
@@ -2627,7 +2627,7 @@ account-icon {
   &:hover {
     color: var(--alakazam-orange);
   }
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 990px) {
     &:before {
       content: 'Basket';
       padding-right: 1rem;
@@ -2639,7 +2639,7 @@ account-icon {
  } 
 }
 .header__icon--account {
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 990px) {
   padding-right: 5rem;
   text-decoration: 0 ;
   transition: color 0.2s ease-in-out;
