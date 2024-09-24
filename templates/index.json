@@ -267,22 +267,22 @@
         "cta_Q4z7GT": {
           "type": "cta",
           "settings": {
-            "background_image": "shopify://shop_images/beginners.jpg",
-            "title": "Your Title Here",
-            "subtitle": "Your subtitle here",
-            "button_text": "Click Here",
-            "button_link": "",
+            "background_image": "shopify://shop_images/academy.jpg",
+            "title": "Magic for Beginners",
+            "subtitle": "Magic for BeginnersNew to magic? These products will make you look like a pro in no time!",
+            "button_text": "Shop Beginner Magic",
+            "button_link": "shopify://collections/beginners-magic",
             "overlay_opacity": 50
           }
         },
         "cta_MTp9Wy": {
           "type": "cta",
           "settings": {
-            "background_image": "shopify://shop_images/beginners.jpg",
-            "title": "Your Title Here",
-            "subtitle": "Your subtitle here",
-            "button_text": "Click Here",
-            "button_link": "",
+            "background_image": "shopify://shop_images/academy_92f389da-3421-414a-9488-177378864586.jpg",
+            "title": "Alakazam Academies",
+            "subtitle": "Improve your magic skills and knowledge with our academies.",
+            "button_text": "Shop Academies",
+            "button_link": "shopify://collections/alakazam-academy-products",
             "overlay_opacity": 50
           }
         },
