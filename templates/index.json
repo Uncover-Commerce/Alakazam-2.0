@@ -219,48 +219,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_WqQUA4": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_AcbWMi": {
-          "type": "heading",
-          "settings": {
-            "heading": "Join Our 24/7 Magic Club",
-            "heading_size": "h1"
-          }
-        },
-        "text_3FcgXA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Join our 24/7 Magic Club over on our Discord server. You can chat to magicians from around the world and get access to live magic lessons and teach-ins and all of this is totally free of charge!</p><p>Don't delay, join the Alakazam Online Magic Club today! All levels of magicians are welcome to join, from the absolute beginner to the seasoned professional!</p>"
-          }
-        },
-        "button_jJLc7q": {
-          "type": "button",
-          "settings": {
-            "button_label": "Join Magic Club",
-            "button_link": "https://discord.com/invite/4JU9NQeJJg",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_AcbWMi",
-        "text_3FcgXA",
-        "button_jJLc7q"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "call_to_actions_nfmbJT": {
       "type": "call-to-actions",
       "blocks": {
@@ -311,6 +269,48 @@
         "button_text": "Click Here",
         "button_link": "",
         "content_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_WqQUA4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AcbWMi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our 24/7 Magic Club",
+            "heading_size": "h1"
+          }
+        },
+        "text_3FcgXA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join our 24/7 Magic Club over on our Discord server. You can chat to magicians from around the world and get access to live magic lessons and teach-ins and all of this is totally free of charge!</p><p>Don't delay, join the Alakazam Online Magic Club today! All levels of magicians are welcome to join, from the absolute beginner to the seasoned professional!</p>"
+          }
+        },
+        "button_jJLc7q": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join Magic Club",
+            "button_link": "https://discord.com/invite/4JU9NQeJJg",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AcbWMi",
+        "text_3FcgXA",
+        "button_jJLc7q"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -540,8 +540,8 @@
     "rich_text",
     "featured_products",
     "featured_collection_ddaDF7",
-    "rich_text_WqQUA4",
     "call_to_actions_nfmbJT",
+    "rich_text_WqQUA4",
     "collection_list_uncover_Xwcaym",
     "rich_text_GNgxYw",
     "172494080791e28a10",
