@@ -130,10 +130,60 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "meet_the_team_uncover_qyTPk6": {
+      "type": "meet-the-team-uncover",
+      "blocks": {
+        "team_member_hLpTAE": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify://shop_images/Chris_James.jpg",
+            "name": "Chris James",
+            "title": "Alakazam USA Team Manager",
+            "description": "Chris James may have only delved into magic five years ago, but he's certainly left an impression! His innovative thinking has made him a sought-after talent among magic producers. We're thrilled to have him on our team, leading our US operations. Chris ensures that your orders are packed and shipped promptly, while also ensuring that the Alakazam US Warehouse is fully stocked with the finest magic products."
+          }
+        }
+      },
+      "block_order": [
+        "team_member_hLpTAE"
+      ],
+      "settings": {
+        "title": "Alakazam USA Team",
+        "content_alignment": "left",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "meet_the_team_uncover_bUED6d": {
+      "type": "meet-the-team-uncover",
+      "blocks": {
+        "team_member_MVN7GN": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify://shop_images/buddy.jpg",
+            "name": "Buddy the Dog",
+            "title": "Head of Animal Magic",
+            "description": "Hi my name is Buddy and I'm H's son. You usually find me trying to get in shot whenever my dad is filming something for his socials. I'm super friendly and love attention."
+          }
+        }
+      },
+      "block_order": [
+        "team_member_MVN7GN"
+      ],
+      "settings": {
+        "title": "Head of Animal Magic",
+        "content_alignment": "left",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "meet_the_team_uncover_eNXx9A"
+    "meet_the_team_uncover_eNXx9A",
+    "meet_the_team_uncover_qyTPk6",
+    "meet_the_team_uncover_bUED6d"
   ]
 }
