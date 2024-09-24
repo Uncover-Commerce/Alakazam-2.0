@@ -290,10 +290,10 @@
           "type": "cta",
           "settings": {
             "background_image": "shopify://shop_images/beginners.jpg",
-            "title": "Your Title Here",
-            "subtitle": "Your subtitle here",
-            "button_text": "Click Here",
-            "button_link": "",
+            "title": "Digital Gift Cards",
+            "subtitle": "The perfect gift for any magician. Use them in store, online and even at conventions!",
+            "button_text": "Shop Gift Cards",
+            "button_link": "shopify://collections/gift-cards",
             "overlay_opacity": 50
           }
         }
@@ -307,7 +307,7 @@
         "color_scheme": "scheme-3",
         "full_width": false,
         "title": "Shop Magic",
-        "button_display": true,
+        "button_display": false,
         "button_text": "Click Here",
         "button_link": "",
         "content_alignment": "center",
