@@ -9,17 +9,17 @@
 */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/logo-for-dark-background.png",
+    "logo": "shopify://shop_images/logo-for-dark-background.png",
     "logo_width": 150,
     "type_header_font": "lobster_n4",
     "type_body_font": "muli_n4",
     "page_width": 1600,
     "buttons_radius": 40,
-    "social_facebook_link": "https:\/\/www.facebook.com\/Alakazam.co.uk",
-    "social_instagram_link": "https:\/\/www.instagram.com\/alakazammagicshop\/",
-    "social_youtube_link": "https:\/\/www.youtube.com\/user\/AlakazamMagicUK",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@alakazammagicshop",
-    "social_twitter_link": "https:\/\/twitter.com\/alakazammagic",
+    "social_facebook_link": "https://www.facebook.com/Alakazam.co.uk",
+    "social_instagram_link": "https://www.instagram.com/alakazammagicshop/",
+    "social_youtube_link": "https://www.youtube.com/user/AlakazamMagicUK",
+    "social_tiktok_link": "https://www.tiktok.com/@alakazammagicshop",
+    "social_twitter_link": "https://twitter.com/alakazammagic",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -61,7 +61,7 @@
             "type": "text",
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>"
             }
           }
         },
@@ -85,13 +85,76 @@
     ],
     "blocks": {
       "163406191513f11729": {
-        "type": "shopify:\/\/apps\/growave\/blocks\/block.embed.socialshopwave-helper\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+        "type": "shopify://apps/growave/blocks/block.embed.socialshopwave-helper/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
         "disabled": false,
         "settings": {
         }
       },
       "16278478101612877664": {
-        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12700074581251677223": {
+        "type": "shopify://apps/uplinkly-sticky-cart/blocks/sticky-cart/25fba6ad-75e4-408b-a261-b223e0c71c8b",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "13650390699542216616": {
+        "type": "shopify://apps/accessibility-spark-ada-wcag/blocks/widget/36895fac-ec38-47a0-807c-7397daa6ec4e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#000000",
+          "secondary_color": "#FFFFFF",
+          "ternary_color": "#6A6A6A",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
+        }
+      },
+      "4644077978495408606": {
+        "type": "shopify://apps/appstle-memberships/blocks/appstle-membership-helper/76528d70-5fbe-48f8-8e19-590d109aa2b7",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7924418359578431505": {
+        "type": "shopify://apps/seoant-ai-seo/blocks/seoant-core/8e57283b-dcb0-4f7b-a947-fb5c57a0d59d",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "10605408327587305396": {
+        "type": "shopify://apps/eg-auto-add-to-cart/blocks/app-embed/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "disabled": false,
+        "settings": {
+          "version": "v3"
+        }
+      },
+      "10436698916776057164": {
+        "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-helper/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7902831097370503076": {
+        "type": "shopify://apps/estimated-delivery-date-eta/blocks/estimated-delivery-days/d8155dd1-6598-4174-aaeb-cbcf85a857bc",
         "disabled": false,
         "settings": {
         }
@@ -311,7 +374,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
