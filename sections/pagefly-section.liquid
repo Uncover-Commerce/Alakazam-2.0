@@ -1,0 +1,686 @@
+
+{% if section.settings.section_id.size > 0 %}
+  <!-- PageFlyGlobalSection -->
+  {% render 'pagefly-main-js' %}
+  {% render 'pagefly-main-css' %}
+  {% include section.settings.section_id %}
+{% else %}
+  
+    {% if request.design_mode %}
+      <style>.pf-ph{font-size:14px!important;background:#fafafa;padding:20px;text-align:center;border:1px solid #f0f0f0;border-radius:4px;margin:15px}.pf-ph span{display:block;background:#e6f7ff;padding:8px 15px;border:1px solid #91d5ff}</style>
+      <div class="pf-ph">
+        <h3>PageFly Section</h3>
+        <span>No section selected. Please select your section from the list</span>
+      </div>
+    {% endif %}
+  
+{% endif %}
+
+{% schema %}
+{
+  "name": "PageFly Section",
+  "settings": [
+    {
+      "id": "section_id",
+      "type": "select",
+      "label": "Sections",
+      "options": [
+        {
+          "label": "Select section",
+          "value": ""
+        },
+        {
+          "label": "The Magic of Wayne Dobson",
+          "value": "pf-13751792"
+        },
+        {
+          "label": "Footer",
+          "value": "pf-2c9f8a8a"
+        },
+        {
+          "label": "Header",
+          "value": "pf-5eb55e30"
+        },
+        {
+          "label": "Desert Island Trick's Video Roll",
+          "value": "pf-14d98ffe"
+        },
+        {
+          "label": "Review Show Video Roll",
+          "value": "pf-ce054e41"
+        },
+        {
+          "label": "The Act Video Roll",
+          "value": "pf-b38157a6"
+        },
+        {
+          "label": "Alakazam Vlog Video Roll",
+          "value": "pf-15e1b02c"
+        },
+        {
+          "label": "Original's Video Roll",
+          "value": "pf-ae0710e8"
+        },
+        {
+          "label": "Original's Card",
+          "value": "pf-c73b2b80"
+        },
+        {
+          "label": "Adam Dadswell Video Roll",
+          "value": "pf-aec6b08c"
+        },
+        {
+          "label": "Legends Video Roll",
+          "value": "pf-e1380b70"
+        },
+        {
+          "label": "Top 10 Roll",
+          "value": "pf-4a3091a4"
+        },
+        {
+          "label": "Latest Lesson's",
+          "value": "pf-0fb10ab7"
+        },
+        {
+          "label": "Cube Solving Video Roll",
+          "value": "pf-64c9bb12"
+        },
+        {
+          "label": "Collin Claus Product Roll",
+          "value": "pf-b133664a"
+        },
+        {
+          "label": "Matthew Dowden Cards",
+          "value": "pf-5e868b4f"
+        },
+        {
+          "label": "Matthew Dowden Video Roll",
+          "value": "pf-7bed05aa"
+        },
+        {
+          "label": "Craig Petty Product Roll",
+          "value": "pf-5de09585"
+        },
+        {
+          "label": "Craig Petty Video Roll",
+          "value": "pf-e4f99847"
+        },
+        {
+          "label": "Michael Vincent Video Roll",
+          "value": "pf-df2d6b4b"
+        },
+        {
+          "label": "Journey's Video Roll",
+          "value": "pf-a6fab0ef"
+        },
+        {
+          "label": "Coin Classics Video Roll",
+          "value": "pf-ca8d49ab"
+        },
+        {
+          "label": "Michael Vincent Cards",
+          "value": "pf-dc0eda03"
+        },
+        {
+          "label": "Jorge Garcia's Video Roll",
+          "value": "pf-55088d0e"
+        },
+        {
+          "label": "Ben Sidwell Product Roll",
+          "value": "pf-811fbae9"
+        },
+        {
+          "label": "Ben Sidwell Video Roll",
+          "value": "pf-17207fb1"
+        },
+        {
+          "label": "Unlimited Highlight Video Roll",
+          "value": "pf-c8300501"
+        },
+        {
+          "label": "Leo Smetsers Product Roll",
+          "value": "pf-bb4d2fa9"
+        },
+        {
+          "label": "Leo Smetsers Video Roll",
+          "value": "pf-b550620e"
+        },
+        {
+          "label": "Adam Dadswell Product Roll",
+          "value": "pf-fdcd383d"
+        },
+        {
+          "label": "John Carey Video Roll",
+          "value": "pf-9813aa89"
+        },
+        {
+          "label": "Wayne Dobson Product Roll",
+          "value": "pf-31597a0e"
+        },
+        {
+          "label": "Andy Nyman Video Roll",
+          "value": "pf-dbdb7e8c"
+        },
+        {
+          "label": "Desert Island Tricks Main Site",
+          "value": "pf-febf7fea"
+        },
+        {
+          "label": "John Archer Video Roll",
+          "value": "pf-c78a8493"
+        },
+        {
+          "label": "Andy Smith Video Roll",
+          "value": "pf-119ae0ea"
+        },
+        {
+          "label": "Acting Through Magic Video's",
+          "value": "pf-d94d9466"
+        },
+        {
+          "label": "Martin Peirce Cards ",
+          "value": "pf-336ff954"
+        },
+        {
+          "label": "Academy Video Roll ",
+          "value": "pf-3b382529"
+        },
+        {
+          "label": "Joel Dickinson Video Roll",
+          "value": "pf-e8015df2"
+        },
+        {
+          "label": "Noel Qualter Video Roll",
+          "value": "pf-e69248a1"
+        },
+        {
+          "label": "The Latest Theatre",
+          "value": "pf-ee7cd7bc"
+        },
+        {
+          "label": "The Theatre Video's ",
+          "value": "pf-94a1ade5"
+        },
+        {
+          "label": "Noel Qualter Product Roll",
+          "value": "pf-a454999b"
+        },
+        {
+          "label": "Martin Pierce Product Roll ",
+          "value": "pf-441359ef"
+        },
+        {
+          "label": "Martin Pierce Video Roll",
+          "value": "pf-c23bae3a"
+        },
+        {
+          "label": "Matthew Wright Cards",
+          "value": "pf-7b8337e7"
+        },
+        {
+          "label": "Jorge Garcia Cards",
+          "value": "pf-fd136907"
+        },
+        {
+          "label": "Sponge Ball Course Video Roll",
+          "value": "pf-704e904a"
+        },
+        {
+          "label": "Jorge Garcia Product Roll",
+          "value": "pf-d69190e1"
+        },
+        {
+          "label": "Rajan Video Roll",
+          "value": "pf-491c67c3"
+        },
+        {
+          "label": "Simon Lipkin Video Roll",
+          "value": "pf-4a6d6d21"
+        },
+        {
+          "label": "Channels Video Roll",
+          "value": "pf-728242f3"
+        },
+        {
+          "label": "Wayne Goodman Video Roll",
+          "value": "pf-7391ac83"
+        },
+        {
+          "label": "This weeks Vlog Roll",
+          "value": "pf-f9172281"
+        },
+        {
+          "label": "Desert Island Tricks Products - James Went",
+          "value": "pf-d5c1c30d"
+        },
+        {
+          "label": "Peter Nardi Video Roll ",
+          "value": "pf-47e5bd4f"
+        },
+        {
+          "label": "Marc Spelmann Video Roll",
+          "value": "pf-1e315288"
+        },
+        {
+          "label": "Main Page Navigation",
+          "value": "pf-1f3b1412"
+        },
+        {
+          "label": "Desert Island Tricks Products - Chris Congreave",
+          "value": "pf-0ebdb0b5"
+        },
+        {
+          "label": "Simon Lipkin Product Roll",
+          "value": "pf-bd784d17"
+        },
+        {
+          "label": "Harry Nardi Cards",
+          "value": "pf-74a2bf2f"
+        },
+        {
+          "label": "Harry Nardi Video Roll",
+          "value": "pf-420e4d89"
+        },
+        {
+          "label": "Desert Island Tricks Products - Peter Nardi",
+          "value": "pf-b2d7cc5d"
+        },
+        {
+          "label": "Graham Jolley Video Roll",
+          "value": "pf-c81361be"
+        },
+        {
+          "label": "Graham Jolley Product Roll",
+          "value": "pf-bbe4f6f2"
+        },
+        {
+          "label": "Desert Island Tricks Products - Dean Leavy",
+          "value": "pf-bc0dff92"
+        },
+        {
+          "label": "Matthew Wright Video Roll",
+          "value": "pf-400499b6"
+        },
+        {
+          "label": "Desert Island Tricks Products - Roman Armstrong",
+          "value": "pf-f46a7bb8"
+        },
+        {
+          "label": "searchtest",
+          "value": "pf-803db714"
+        },
+        {
+          "label": "Desert Island Tricks Products - Liam Montier",
+          "value": "pf-94bde99a"
+        },
+        {
+          "label": "Desert Island Tricks Products - Mark James",
+          "value": "pf-60abfdb2"
+        },
+        {
+          "label": "Andy Nyman Product Roll",
+          "value": "pf-f70d52e8"
+        },
+        {
+          "label": "Desert Island Tricks Products - Paul Martin",
+          "value": "pf-8e17efc1"
+        },
+        {
+          "label": "Rajan Product Roll",
+          "value": "pf-ccb872f9"
+        },
+        {
+          "label": "Desert Island Tricks Products - Harry Nardi",
+          "value": "pf-554f5ceb"
+        },
+        {
+          "label": "Thom Peterson Video Roll",
+          "value": "pf-30933d32"
+        },
+        {
+          "label": "Desert Island Tricks Products - Richard Jones",
+          "value": "pf-65de59e4"
+        },
+        {
+          "label": "Item's Used in this Effect",
+          "value": "pf-44511e05"
+        },
+        {
+          "label": "Desert Island Tricks Products - Andy Smith",
+          "value": "pf-8fc9e85e"
+        },
+        {
+          "label": "Colin Mcleod Product Roll",
+          "value": "pf-43140405"
+        },
+        {
+          "label": "Dave Davies Product Roll",
+          "value": "pf-3a8e6bfc"
+        },
+        {
+          "label": "Thom Peterson Product Roll",
+          "value": "pf-0b4b21a0"
+        },
+        {
+          "label": "Luke Jermay Product Roll",
+          "value": "pf-29192f1b"
+        },
+        {
+          "label": "Chris Congreave Video Roll",
+          "value": "pf-edf6aa26"
+        },
+        {
+          "label": "Chris Congreave Product Roll",
+          "value": "pf-13bcfe7d"
+        },
+        {
+          "label": "Originals Product Roll",
+          "value": "pf-66b73ce5"
+        },
+        {
+          "label": "Desert Island Tricks Products - Preston Nyman",
+          "value": "pf-636b5913"
+        },
+        {
+          "label": "John Archer Cards",
+          "value": "pf-5a4ac52b"
+        },
+        {
+          "label": "Academy Cards",
+          "value": "pf-56cec79d"
+        },
+        {
+          "label": "Liam Montier Video Roll",
+          "value": "pf-27496861"
+        },
+        {
+          "label": "Academy Product Roll ",
+          "value": "pf-0f912165"
+        },
+        {
+          "label": "Academy Banner",
+          "value": "pf-7d8d4100"
+        },
+        {
+          "label": "Desert Island Tricks Products - Dave Forrest",
+          "value": "pf-2cc8c0b4"
+        },
+        {
+          "label": "Desert Island Tricks Navigation",
+          "value": "pf-2d12b67d"
+        },
+        {
+          "label": "Paul Pickford Cards",
+          "value": "pf-ff9484f9"
+        },
+        {
+          "label": "Christopher Williams Cards",
+          "value": "pf-cd25f2d6"
+        },
+        {
+          "label": "Think Nguyen Cards",
+          "value": "pf-8ee4244c"
+        },
+        {
+          "label": "John Van Der Put Cards",
+          "value": "pf-ca228401"
+        },
+        {
+          "label": "Wayne Goodman Cards",
+          "value": "pf-e60ab009"
+        },
+        {
+          "label": "Paul Gordon Cards",
+          "value": "pf-ffccb7f4"
+        },
+        {
+          "label": "Tom Rose Cards",
+          "value": "pf-ee0ca9f7"
+        },
+        {
+          "label": "Dave Davies Cards",
+          "value": "pf-87430fc1"
+        },
+        {
+          "label": "Marc Spelmann Cards",
+          "value": "pf-bf7f033b"
+        },
+        {
+          "label": "Joe Barry Cards",
+          "value": "pf-6c9032d5"
+        },
+        {
+          "label": "James Brown Cards",
+          "value": "pf-98153ce7"
+        },
+        {
+          "label": "Ben Earl Cards",
+          "value": "pf-78b2d2f7"
+        },
+        {
+          "label": "Thom Peterson Cards",
+          "value": "pf-ebb54454"
+        },
+        {
+          "label": "Andrew Normansell Cards",
+          "value": "pf-0845ea7c"
+        },
+        {
+          "label": "Tom Rose Video Roll",
+          "value": "pf-50d015ab"
+        },
+        {
+          "label": "Dave Davies Video Roll",
+          "value": "pf-0c07bd56"
+        },
+        {
+          "label": "Paul Stockman Video Roll",
+          "value": "pf-1ae36767"
+        },
+        {
+          "label": "Luke Jermay Video Roll",
+          "value": "pf-0161c3c8"
+        },
+        {
+          "label": "Joe Barry Video Roll",
+          "value": "pf-9a44e686"
+        },
+        {
+          "label": "James Brown Video Roll",
+          "value": "pf-f1428287"
+        },
+        {
+          "label": "Ben Earl Video Roll",
+          "value": "pf-2286bc2d"
+        },
+        {
+          "label": "Andrew Normansell Product Roll",
+          "value": "pf-c25d75ee"
+        },
+        {
+          "label": "Andrew Normansell Video Roll",
+          "value": "pf-c4363294"
+        },
+        {
+          "label": "Colin Mcleod Video Roll",
+          "value": "pf-cbe76a90"
+        },
+        {
+          "label": "Doug Conn Product Roll",
+          "value": "pf-98ac3223"
+        },
+        {
+          "label": "Doug Conn Video Roll",
+          "value": "pf-cd578a55"
+        },
+        {
+          "label": "David Jonathan Product Roll",
+          "value": "pf-64214233"
+        },
+        {
+          "label": "David Jonathan Video Roll",
+          "value": "pf-dab3a42a"
+        },
+        {
+          "label": "Marc Paul Product Roll",
+          "value": "pf-a48a6ff7"
+        },
+        {
+          "label": "Marc Paul Video Roll",
+          "value": "pf-0059a45f"
+        },
+        {
+          "label": "Joel Dickinson Product Roll",
+          "value": "pf-b0631d43"
+        },
+        {
+          "label": "Harry Nardi Product Roll",
+          "value": "pf-8c0f14c5"
+        },
+        {
+          "label": "Jasper Blakeley Video Roll",
+          "value": "pf-4db4bb47"
+        },
+        {
+          "label": "Paul Pickford Video Roll",
+          "value": "pf-beec28f4"
+        },
+        {
+          "label": "Matthew Wright Product Roll",
+          "value": "pf-01252f5b"
+        },
+        {
+          "label": "Liam Montier Product Roll",
+          "value": "pf-22c34791"
+        },
+        {
+          "label": "John Carey Product Roll",
+          "value": "pf-d480fcd4"
+        },
+        {
+          "label": "Peter Nardi Product Roll ",
+          "value": "pf-f997c5b8"
+        },
+        {
+          "label": "Andy Smith Product Roll",
+          "value": "pf-332f811a"
+        },
+        {
+          "label": "Paul Pickford Product Roll",
+          "value": "pf-365e52e8"
+        },
+        {
+          "label": "Christopher Williams Video Roll",
+          "value": "pf-2a441e4b"
+        },
+        {
+          "label": "Christopher Williams Product Roll",
+          "value": "pf-0baa406e"
+        },
+        {
+          "label": "Think Nguyen Video Roll",
+          "value": "pf-0ddcdb76"
+        },
+        {
+          "label": "Think Nguyen Product Roll",
+          "value": "pf-affa1df3"
+        },
+        {
+          "label": "John Van Der Put Video Roll",
+          "value": "pf-5cf62124"
+        },
+        {
+          "label": "John Van Der Put Product Roll",
+          "value": "pf-bc25c671"
+        },
+        {
+          "label": "Michael Vincent Product Roll",
+          "value": "pf-93ef3ca7"
+        },
+        {
+          "label": "Ben Earl Product Roll ",
+          "value": "pf-61c9b460"
+        },
+        {
+          "label": "Wayne Goodman Product Roll",
+          "value": "pf-f411ce00"
+        },
+        {
+          "label": "Paul Gordon Video Roll",
+          "value": "pf-e86dd969"
+        },
+        {
+          "label": "Paul Gordon Product Roll",
+          "value": "pf-e83e6ce9"
+        },
+        {
+          "label": "Tom Rose Product Roll",
+          "value": "pf-815b97d5"
+        },
+        {
+          "label": "Jasper Blakeley Product Roll",
+          "value": "pf-f971beab"
+        },
+        {
+          "label": "Docc Hilford Video Roll",
+          "value": "pf-2aa46e9d"
+        },
+        {
+          "label": "Docc Hilford Product Roll",
+          "value": "pf-173507d4"
+        },
+        {
+          "label": "Matthew Dowden Product Roll",
+          "value": "pf-a3867e48"
+        },
+        {
+          "label": "Joe Barry Product Roll",
+          "value": "pf-b4b956df"
+        },
+        {
+          "label": "John Archer Product Roll",
+          "value": "pf-c0bb3a9d"
+        },
+        {
+          "label": "James Brown Product Roll",
+          "value": "pf-f0561ff8"
+        },
+        {
+          "label": "Paul Stockman Product Roll",
+          "value": "pf-65f56dba"
+        },
+        {
+          "label": "Video Roll",
+          "value": "pf-de90f1a2"
+        },
+        {
+          "label": "Marc Spelmann Product Roll",
+          "value": "pf-613796ae"
+        },
+        {
+          "label": "Product Roll",
+          "value": "pf-9b9e3bfb"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Find and edit your section on the [section listing](https://alakazammagic.myshopify.com/admin/apps/pagefly/sections)"
+    },
+    {
+      "type": "paragraph",
+      "content": "To add block to a section, please use the App Block element on PageFly section editor."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "PageFly Section"
+    }
+  ]
+}
+{% endschema %}
