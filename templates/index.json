@@ -15,12 +15,12 @@
         "slide_3abVRg": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sven-banner.png",
+            "image": "shopify://shop_images/sven-banner.png",
             "heading": "The Svengali Deck",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Learn More Here",
-            "link": "shopify:\/\/products\/the-svengali-deck-project-by-craig-petty",
+            "link": "shopify://products/the-svengali-deck-project-by-craig-petty",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -33,12 +33,12 @@
         "slide_dweLWq": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/recall-banner.png",
+            "image": "shopify://shop_images/recall-banner.png",
             "heading": "In Stock Now",
             "heading_size": "h1",
             "subheading": "From the Creator Of Inverto And The Ishihara Test",
             "button_label": "Watch The Trailer Here",
-            "link": "shopify:\/\/products\/total-recall-by-liam-levanon",
+            "link": "shopify://products/total-recall-by-liam-levanon",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -51,12 +51,12 @@
         "slide_mNJgWY": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/stix-banner.png",
+            "image": "shopify://shop_images/stix-banner.png",
             "heading": "In Stock Now",
             "heading_size": "h1",
             "subheading": "The Most Comprehensive Project On The Hot Rod Ever Created",
             "button_label": "Click Here to Watch STIXX In Action",
-            "link": "shopify:\/\/products\/stixx-by-eric-stevens",
+            "link": "shopify://products/stixx-by-eric-stevens",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -69,12 +69,12 @@
         "slide_aXyqKW": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/E2-banner.png",
+            "image": "shopify://shop_images/E2-banner.png",
             "heading": "The King Is Back!",
             "heading_size": "h1",
             "subheading": "IN STOCK NOW! The Best Device Ever Created For Any Card Magician",
             "button_label": "Learn More Here",
-            "link": "shopify:\/\/products\/the-extractor-e2-by-rob-bromley-and-peter-nardi",
+            "link": "shopify://products/the-extractor-e2-by-rob-bromley-and-peter-nardi",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -87,12 +87,12 @@
         "slide_d86Q9w": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/jokerz-banner.png",
+            "image": "shopify://shop_images/jokerz-banner.png",
             "heading": "Back In Stock",
             "heading_size": "h1",
             "subheading": "Read The 5 Star Reviews!",
             "button_label": "Learn More Here",
-            "link": "shopify:\/\/products\/jokerz-by-peter-nardi",
+            "link": "shopify://products/jokerz-by-peter-nardi",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -134,17 +134,17 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to Alakazam Magic, one of the longest-established magic companies in the UK. For over three decades, we have grown to become a global leader in the manufacturing and retailing of magic products. Whether you’re an amateur or a professional magician, you’ll find that Alakazam Magic is your go-to destination for all things magic.<\/p><p>Our reputation for prompt delivery, expert technical advice, and outstanding after-sales care has made us a trusted name among thousands of magicians worldwide. In addition to our own exceptional range of magic products, we offer one of the largest selections of custom and collectible playing cards. We are proud to stock an extensive variety of high-quality items from leading brands such as Tenyo, Penguin Magic, and TCC.<\/p><p>If you’re just starting out, be sure to explore our Amazing Magic Range, designed specifically for beginners. Discover why Alakazam Magic is the first choice for magicians across the globe.<\/p>"
+            "text": "<p>Welcome to Alakazam Magic, one of the longest-established magic companies in the UK. For over three decades, we have grown to become a global leader in the manufacturing and retailing of magic products. Whether you’re an amateur or a professional magician, you’ll find that Alakazam Magic is your go-to destination for all things magic.</p><p>Our reputation for prompt delivery, expert technical advice, and outstanding after-sales care has made us a trusted name among thousands of magicians worldwide. In addition to our own exceptional range of magic products, we offer one of the largest selections of custom and collectible playing cards. We are proud to stock an extensive variety of high-quality items from leading brands such as Tenyo, Penguin Magic, and TCC.</p><p>If you’re just starting out, be sure to explore our Amazing Magic Range, designed specifically for beginners. Discover why Alakazam Magic is the first choice for magicians across the globe.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "About Us",
-            "button_link": "shopify:\/\/pages\/about-us",
+            "button_link": "shopify://pages/about-us",
             "button_style_secondary": true,
             "button_label_2": "Meet the Team",
-            "button_link_2": "shopify:\/\/pages\/meet-the-team",
+            "button_link_2": "shopify://pages/meet-the-team",
             "button_style_secondary_2": true
           }
         }
@@ -168,7 +168,35 @@
       "settings": {
         "title": "Alakazam Hot Sellers",
         "heading_size": "h1",
-        "description": "<p>Alakazam Magic are not only one of the largest and most respected magic stores in the world but for over two decades we have also been one of the largest manufacturers of unique and original magic ranging from our beginners Amazing Magic Range, DVD's, books, online tutorial videos, stage effects, and more. The Alakazam brand is synonymous with quality and high impact, practical effects that you will love.<\/p>",
+        "description": "<p>Alakazam Magic are not only one of the largest and most respected magic stores in the world but for over two decades we have also been one of the largest manufacturers of unique and original magic ranging from our beginners Amazing Magic Range, DVD's, books, online tutorial videos, stage effects, and more. The Alakazam brand is synonymous with quality and high impact, practical effects that you will love.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "hot-sellers",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_ddaDF7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Latest Arrivals",
+        "heading_size": "h1",
+        "description": "<p>Alakazam Magic are not only one of the largest and most respected magic stores in the world but for over two decades we have also been one of the largest manufacturers of unique and original magic ranging from our beginners Amazing Magic Range, DVD's, books, online tutorial videos, stage effects, and more. The Alakazam brand is synonymous with quality and high impact, practical effects that you will love.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "hot-sellers",
@@ -197,21 +225,21 @@
         "heading_AcbWMi": {
           "type": "heading",
           "settings": {
-            "heading": "Join Our 24\/7 Magic Club",
+            "heading": "Join Our 24/7 Magic Club",
             "heading_size": "h1"
           }
         },
         "text_3FcgXA": {
           "type": "text",
           "settings": {
-            "text": "<p>Join our 24\/7 Magic Club over on our Discord server. You can chat to magicians from around the world and get access to live magic lessons and teach-ins and all of this is totally free of charge!<\/p><p>Don't delay, join the Alakazam Online Magic Club today! All levels of magicians are welcome to join, from the absolute beginner to the seasoned professional!<\/p>"
+            "text": "<p>Join our 24/7 Magic Club over on our Discord server. You can chat to magicians from around the world and get access to live magic lessons and teach-ins and all of this is totally free of charge!</p><p>Don't delay, join the Alakazam Online Magic Club today! All levels of magicians are welcome to join, from the absolute beginner to the seasoned professional!</p>"
           }
         },
         "button_jJLc7q": {
           "type": "button",
           "settings": {
             "button_label": "Join Magic Club",
-            "button_link": "https:\/\/discord.com\/invite\/4JU9NQeJJg",
+            "button_link": "https://discord.com/invite/4JU9NQeJJg",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -239,7 +267,7 @@
         "cta_Q4z7GT": {
           "type": "cta",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/beginners.jpg",
+            "background_image": "shopify://shop_images/beginners.jpg",
             "title": "Your Title Here",
             "subtitle": "Your subtitle here",
             "button_text": "Click Here",
@@ -250,7 +278,7 @@
         "cta_MTp9Wy": {
           "type": "cta",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/beginners.jpg",
+            "background_image": "shopify://shop_images/beginners.jpg",
             "title": "Your Title Here",
             "subtitle": "Your subtitle here",
             "button_text": "Click Here",
@@ -261,7 +289,7 @@
         "cta_nfJ8VB": {
           "type": "cta",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/beginners.jpg",
+            "background_image": "shopify://shop_images/beginners.jpg",
             "title": "Your Title Here",
             "subtitle": "Your subtitle here",
             "button_text": "Click Here",
@@ -293,7 +321,7 @@
         "collection_block_tM7MYe": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4119.png",
+            "image": "shopify://shop_images/Group_4119.png",
             "title": "Card Magic",
             "collection": "card-magic",
             "link_text": "View Collection"
@@ -302,7 +330,7 @@
         "collection_block_ELqdFd": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4121.png",
+            "image": "shopify://shop_images/Group_4121.png",
             "title": "Magic Books",
             "collection": "magic-books",
             "link_text": "View Collection"
@@ -311,7 +339,7 @@
         "collection_block_feYExz": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4123.png",
+            "image": "shopify://shop_images/Group_4123.png",
             "title": "Props & Accessories",
             "collection": "props-accessories",
             "link_text": "View Collection"
@@ -320,7 +348,7 @@
         "collection_block_Q4gLnQ": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4120.png",
+            "image": "shopify://shop_images/Group_4120.png",
             "title": "Mentalism",
             "collection": "mentalism",
             "link_text": "View Collection"
@@ -329,7 +357,7 @@
         "collection_block_QRfHyX": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4122.png",
+            "image": "shopify://shop_images/Group_4122.png",
             "title": "Kids Show",
             "collection": "kids-show",
             "link_text": "View Collection"
@@ -338,7 +366,7 @@
         "collection_block_UGTmmw": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4124.png",
+            "image": "shopify://shop_images/Group_4124.png",
             "title": "Comedy",
             "collection": "comedy",
             "link_text": "View Collection"
@@ -347,7 +375,7 @@
         "collection_block_VfzgHM": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4125.png",
+            "image": "shopify://shop_images/Group_4125.png",
             "title": "Special Effects",
             "collection": "special-effects-fire-smoke-sound",
             "link_text": "View Collection"
@@ -356,7 +384,7 @@
         "collection_block_JJqVkN": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4127.png",
+            "image": "shopify://shop_images/Group_4127.png",
             "title": "Close Up Magic",
             "collection": "close-up-magic",
             "link_text": "View Collection"
@@ -365,8 +393,8 @@
         "collection_block_6qRhWF": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4126.png",
-            "title": "Stage\/Parlour",
+            "image": "shopify://shop_images/Group_4126.png",
+            "title": "Stage/Parlour",
             "collection": "stage-parlour",
             "link_text": "View Collection"
           }
@@ -374,7 +402,7 @@
         "collection_block_mXdCzz": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/XMLID_3571.png",
+            "image": "shopify://shop_images/XMLID_3571.png",
             "title": "Money Magic",
             "collection": "money-magic",
             "link_text": "View Collection"
@@ -383,7 +411,7 @@
         "collection_block_znWrPE": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4128.png",
+            "image": "shopify://shop_images/Group_4128.png",
             "title": "Theory, history & Business",
             "collection": "theory-history-business",
             "link_text": "View Collection"
@@ -392,7 +420,7 @@
         "collection_block_Gx9NFq": {
           "type": "collection_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4129.png",
+            "image": "shopify://shop_images/Group_4129.png",
             "title": "Collection Title",
             "collection": "exclusives",
             "link_text": "View Collection"
@@ -438,7 +466,7 @@
         "text_EKHkLr": {
           "type": "text",
           "settings": {
-            "text": "<p>Alakazam Magic were pioneers of the live show.<\/p><p>Broadcasting from our studio we have various events happening every week. With live product launches, unboxings, quiz nights, special guest interviews and giveaway evenings.<\/p><p>Join the Alakazam team every Tuesday at 2pm on Facebook and Youtube for the weekly live show.<\/p><p>Be sure to <a href=\"https:\/\/www.facebook.com\/Alakazam.co.uk\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/Alakazam.co.uk\">like our Facebook page<\/a> and subscribe to our <a href=\"https:\/\/www.youtube.com\/channel\/UCOoPq5g-LfNGEiVoIcDblUg\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/channel\/UCOoPq5g-LfNGEiVoIcDblUg\">youtube channel<\/a><\/p>"
+            "text": "<p>Alakazam Magic were pioneers of the live show.</p><p>Broadcasting from our studio we have various events happening every week. With live product launches, unboxings, quiz nights, special guest interviews and giveaway evenings.</p><p>Join the Alakazam team every Tuesday at 2pm on Facebook and Youtube for the weekly live show.</p><p>Be sure to <a href=\"https://www.facebook.com/Alakazam.co.uk\" target=\"_blank\" title=\"https://www.facebook.com/Alakazam.co.uk\">like our Facebook page</a> and subscribe to our <a href=\"https://www.youtube.com/channel/UCOoPq5g-LfNGEiVoIcDblUg\" target=\"_blank\" title=\"https://www.youtube.com/channel/UCOoPq5g-LfNGEiVoIcDblUg\">youtube channel</a></p>"
           }
         }
       },
@@ -459,7 +487,7 @@
       "type": "apps",
       "blocks": {
         "growave_loyalty_wishlist_block_index_reviews_slider_Ab3MM8": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.index.ReviewsSlider\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.index.ReviewsSlider/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
           }
         }
@@ -475,7 +503,7 @@
       "type": "apps",
       "blocks": {
         "growave_loyalty_wishlist_block_index_instagram_jwYiRK": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.index.instagram\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.index.instagram/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
             "option_galleries_id": "1",
             "option_galleries_layout": "0"
@@ -511,6 +539,7 @@
     "slideshow_nFCGeT",
     "rich_text",
     "featured_products",
+    "featured_collection_ddaDF7",
     "rich_text_WqQUA4",
     "call_to_actions_nfmbJT",
     "collection_list_uncover_Xwcaym",
