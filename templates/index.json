@@ -15,6 +15,42 @@
         "slide_3abVRg": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/grifter-banner.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Learn More Here",
+            "link": "shopify://products/the-grifter-by-peter-nardi",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_n33itz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Block_Wide_Scrolling_Web_Image.jpg",
+            "heading": "BlockHead by Marc Spelmann",
+            "heading_size": "h1",
+            "subheading": "Over 18's Only",
+            "button_label": "Learn More Here",
+            "link": "shopify://products/block-by-marc-spelmann-instant-download",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VnctUJ": {
+          "type": "slide",
+          "settings": {
             "image": "shopify://shop_images/sven-banner.png",
             "heading": "The Svengali Deck",
             "heading_size": "h1",
@@ -65,50 +101,14 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_aXyqKW": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/E2-banner.png",
-            "heading": "The King Is Back!",
-            "heading_size": "h1",
-            "subheading": "IN STOCK NOW! The Best Device Ever Created For Any Card Magician",
-            "button_label": "Learn More Here",
-            "link": "shopify://products/the-extractor-e2-by-rob-bromley-and-peter-nardi",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_d86Q9w": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/jokerz-banner.png",
-            "heading": "Back In Stock",
-            "heading_size": "h1",
-            "subheading": "Read The 5 Star Reviews!",
-            "button_label": "Learn More Here",
-            "link": "shopify://products/jokerz-by-peter-nardi",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_3abVRg",
+        "slide_n33itz",
+        "slide_VnctUJ",
         "slide_dweLWq",
-        "slide_mNJgWY",
-        "slide_aXyqKW",
-        "slide_d86Q9w"
+        "slide_mNJgWY"
       ],
       "settings": {
         "layout": "full_bleed",
