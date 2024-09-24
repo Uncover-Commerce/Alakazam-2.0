@@ -44,7 +44,7 @@
     "featured-products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Don't Forget The Essentials!",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
