@@ -100,6 +100,15 @@
             "title": "Customer Support",
             "description": "Wayne Goodman has been a professional magician for over 30 years performing everything from kid shows to close up to stage. Wayne joined the Alakazam team as the Host of our Discord server in 2020 and part of our customer support team."
           }
+        },
+        "team_member_LKPqbm": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify://shop_images/DSC_0876.jpg",
+            "name": "Stevo Watson",
+            "title": "Gimmick Design & Manufacture",
+            "description": "Stevo is our in-house gimmick maker and  he loves to create new ideas. \n\nStevo's skill at creating and crafting gimmicks is unsurpassed. \n\nYou can feel confident that any gimmick which has been created in Stevo's workshop will be a joy to use and perform flawlessly."
+          }
         }
       },
       "block_order": [
@@ -111,7 +120,8 @@
         "team_member_UaB7zQ",
         "team_member_3Lrcnc",
         "team_member_gPF6Lg",
-        "team_member_DH78nn"
+        "team_member_DH78nn",
+        "team_member_LKPqbm"
       ],
       "settings": {
         "title": "Alakazam Team",
