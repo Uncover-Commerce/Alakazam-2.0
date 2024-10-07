@@ -69,12 +69,12 @@
         "slide_dweLWq": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/recall-banner.png",
+            "image": "shopify://shop_images/psycho-banner_3510f44d-d0e8-47b8-a7ef-87284cc6d613.png",
             "heading": "In Stock Now",
             "heading_size": "h1",
-            "subheading": "From the Creator Of Inverto And The Ishihara Test",
+            "subheading": "A Perfect Piece For Halloween",
             "button_label": "Watch The Trailer Here",
-            "link": "shopify://products/total-recall-by-liam-levanon",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
