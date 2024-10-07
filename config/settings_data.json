@@ -9,8 +9,9 @@
 */
 {
   "current": {
-    "logo": "shopify://shop_images/logo-for-dark-background.png",
+    "logo": "shopify://shop_images/halloween-logo.png",
     "logo_width": 150,
+    "favicon": "shopify://shop_images/logo-for-light-background.png",
     "type_header_font": "lobster_n4",
     "type_body_font": "muli_n4",
     "page_width": 1600,
