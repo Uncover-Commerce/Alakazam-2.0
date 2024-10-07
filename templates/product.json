@@ -30,7 +30,7 @@
           }
         },
         "growave_loyalty_wishlist_block_product_review_avg_profile_epdTQG": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.product.reviewAvgProfile\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.reviewAvgProfile/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
           }
         },
@@ -66,9 +66,21 @@
           }
         },
         "growave_loyalty_wishlist_block_product_fave_button_xXYcib": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.product.faveButton\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.faveButton/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
             "option_button_class": ""
+          }
+        },
+        "klarna_on_site_messaging_app_block_RNLJYw": {
+          "type": "shopify://apps/klarna-on-site-messaging/blocks/app-block/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "top-strip-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "default",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
           }
         },
         "difficulty_FAtwyA": {
@@ -112,6 +124,7 @@
         "quantity_selector",
         "buy_buttons",
         "growave_loyalty_wishlist_block_product_fave_button_xXYcib",
+        "klarna_on_site_messaging_app_block_RNLJYw",
         "difficulty_FAtwyA",
         "description",
         "share",
@@ -137,7 +150,7 @@
       "type": "apps",
       "blocks": {
         "growave_loyalty_wishlist_block_product_review_widget_MEQL6j": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.product.reviewWidget\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.reviewWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
           }
         }
