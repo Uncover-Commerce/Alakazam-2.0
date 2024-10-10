@@ -2209,7 +2209,7 @@ function getRandomSubscribeAPIPath() {
                 "position": "right-top",
                 "corner_offset": 100,
                 "background_color": "#000000",
-                "selected_selector": ".ak-product-form__buttons.product-form__buttons",
+                "selected_selector": ".product-form__submit",
                 "placement": "AFTER",
                 "text_color": "#ffffff",
                 "border_color": "#000000",
