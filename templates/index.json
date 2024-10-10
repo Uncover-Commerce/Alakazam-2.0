@@ -69,12 +69,12 @@
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/sven-banner.png",
-            "heading": "The Svengali Deck",
+            "image": "shopify://shop_images/assassin_banner.jpg",
+            "heading": "The Stealth Assassin",
             "heading_size": "h1",
-            "subheading": "",
+            "subheading": "The Wallet Of Choice For Mentalist's Worldwide!",
             "button_label": "Learn More Here",
-            "link": "shopify://products/the-svengali-deck-project-by-craig-petty",
+            "link": "shopify://products/stealth-assassin-v1-1-wallet-by-peter-nardi",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
