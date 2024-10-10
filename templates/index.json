@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_VnctUJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/assassin_banner.jpg",
+            "heading": "The Stealth Assassin",
+            "heading_size": "h1",
+            "subheading": "The Wallet Of Choice For Mentalist's Worldwide!",
+            "button_label": "Learn More Here",
+            "link": "shopify://products/stealth-assassin-v1-1-wallet-by-peter-nardi",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_dweLWq": {
           "type": "slide",
           "settings": {
@@ -66,24 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_VnctUJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/assassin_banner.jpg",
-            "heading": "The Stealth Assassin",
-            "heading_size": "h1",
-            "subheading": "The Wallet Of Choice For Mentalist's Worldwide!",
-            "button_label": "Learn More Here",
-            "link": "shopify://products/stealth-assassin-v1-1-wallet-by-peter-nardi",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_mNJgWY": {
           "type": "slide",
           "settings": {
@@ -104,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_VnctUJ",
         "slide_dweLWq",
         "slide_3abVRg",
         "slide_n33itz",
-        "slide_VnctUJ",
         "slide_mNJgWY"
       ],
       "settings": {
