@@ -2216,7 +2216,7 @@ function getRandomSubscribeAPIPath() {
                 "border_width": 1,
                 "border_radius": 3,
                 "image": "//static.back-in-stock.appikon.com/assets/widget/notify-btn-vertical-f46bd7ac1b51e7d3c6a766d843fe60b46f8628e13e717124d83ffe65be466f4d.png",
-                "visible": false,
+                "visible": true,
                 "always_show_widget": false,
                 "widget_button_enabled": true,
                 "countdown_timer_enabled": false,
