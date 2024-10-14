@@ -86,13 +86,14 @@
         },
         "slide_mNJgWY": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/stix-banner.png",
+            "image": "shopify://shop_images/toys-banner.png",
             "heading": "In Stock Now",
             "heading_size": "h1",
-            "subheading": "The Most Comprehensive Project On The Hot Rod Ever Created",
-            "button_label": "Click Here to Watch STIXX In Action",
-            "link": "shopify://products/stixx-by-eric-stevens",
+            "subheading": "Multiple mind reading effects, packed in to colour pages!",
+            "button_label": "Click Here to Watch TOYS In Action",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
