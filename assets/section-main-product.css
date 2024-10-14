@@ -1492,3 +1492,14 @@ a.product__text {
     border: none;
   }
 }
+
+/* ESTIMATED DELIVER */
+.estimated-delivery{
+  display: flex;
+  align-items: center;
+  color: rgb(53, 64, 103);
+}
+
+.estimated-delivery svg{
+  margin-right: 1rem;
+}

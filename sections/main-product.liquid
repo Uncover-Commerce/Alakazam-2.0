@@ -210,6 +210,136 @@
                     {{ product.description }}
                   </div>
                 {%- endif -%}
+              {%- when 'estimate_delivery' -%}
+                {% comment %} Added by SuperFighterDesign (dispatch time estimates){% endcomment %}
+                {% assign is_presale = false %}
+                {% if product.available %}
+                  <div id="shipping_estimate">
+                    {% if product.type == 'Download' %}
+                      <p>
+                        <strong>
+                          <span style="color: #3c763d; "> </span>
+                        </strong>
+                      </p>
+                    {% else %}
+                      {% if product.metafields.MurphysMagiclink.release_date %}
+                        {% assign is_presale = true %}
+                        {% unless product.metafields.MurphysMagic.hide_release_date %}
+                          <p>
+                            <strong>
+                              <span style="color: #3c763d; ">
+                                {% assign date_time_parts = product.metafields.MurphysMagiclink.release_date
+                                  | split: 'T'
+                                %}
+                                {% assign date_parts = date_time_parts[0] | split: '-' %}
+                                Coming soon, pre order now! Release Date:
+                                {{ product.metafields.MurphysMagiclink.release_date | date: '%A, %d %B %Y' }}
+                              </span>
+                            </strong>
+                          </p>
+                        {% endunless %}
+                      {% else %}
+                        <p></p>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                {% endif %}
+                {% comment %} End of Added by SuperFighterDesign (dispatch time estimates){% endcomment %}
+                {%- comment -%} Delivery Script{%- endcomment -%}
+                {% if product.tags contains 'presale' %}
+                {% else %}
+                  <p class="estimated-delivery">
+                    {% render 'icon-truck' %}
+                    <span></span> <span class="ak-product__delivery-inner"></span>
+                {% endif %}
+
+                {% if product.tags contains 'murphys-api-product'
+                  or product.tags contains 'murphys-csv-product'
+                  or product.selected_or_first_available_variant.barcode contains 'MURPH-'
+                %}
+                  {% unless product.type contains 'Download' %}
+                    <script>
+                      const pd = document.querySelector('.ak-product__delivery-inner');
+
+                      function getNextDeliveryWindow() {
+                        const dateCopy = new Date(date.getTime());
+
+                        let nextMonday;
+                        nextMonday = new Date(
+                          dateCopy.setDate(dateCopy.getDate() + ((7 - dateCopy.getDay() + 1) % 7 || 7))
+                        );
+
+                        let today = new Date();
+                        if (
+                          (today.getDay() == 5 && today.getHours() >= 18) ||
+                          today.getDay() == 6 ||
+                          today.getDay() == 0
+                        ) {
+                          nextMonday = new Date(
+                            dateCopy.setDate(dateCopy.getDate() + ((7 - dateCopy.getDay() + 1) % 7 || 7))
+                          );
+                        }
+
+                        // const followingMonday = new Date(
+                        //     dateCopy.setDate(
+                        //       dateCopy.getDate() + ((7 - dateCopy.getDay() + 1) % 7 || 7),
+                        //     ),
+                        //   );
+                        // console.log('Friday', followingMonday)
+                        // console.log('Friday', nextMonday)
+
+                        const weekdayArr = ['Sunday', 'Monday', 'Tue', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+                        const monthArr = [
+                          'January',
+                          'February',
+                          'March',
+                          'April',
+                          'May',
+                          'June',
+                          'July',
+                          'August',
+                          'September',
+                          'October',
+                          'November',
+                          'December',
+                        ];
+
+                        let dateObj = new Date(nextMonday);
+                        let month = monthArr[dateObj.getUTCMonth()]; //months from 1-12
+                        let day = dateObj.getUTCDate();
+                        let weekday = weekdayArr[dateObj.getUTCDay()];
+                        let year = dateObj.getUTCFullYear();
+
+                        newdate = weekday + ' ' + day + ' ' + month;
+
+                        return newdate;
+                      }
+
+                      // Expected dispatch
+                      pd.innerText = 'Expected Dispatch ' + getNextDeliveryWindow((date = new Date())); //+ " if ordered between Tuesday and Friday before 6pm"
+                    </script>
+                  {% else %}
+                    <script>
+                      document.querySelector('.ak-product__delivery-inner').innerText = 'Check account after purchase';
+                    </script>
+                  {% endunless %}
+                {% else %}
+                  {% if product.tags contains 'Alakazam Academy Product'
+                    or product.tags contains 'Alakazam Download Product'
+                  %}
+                    <script>
+                      document.querySelector('.ak-product__delivery-inner').innerText = 'Check account after purchase';
+                    </script>
+                  {% else %}
+                    <script>
+                      document.querySelector('.ak-product__delivery-inner').innerText =
+                        'Dispatched same day if ordered before 3pm';
+                    </script>
+                  {% endif %}
+                {% endif %}
+
+                </p>
+                {%- comment -%} Delivery Script END{%- endcomment -%}
               {%- when 'sku' -%}
                 <p
                   class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -941,6 +1071,11 @@
     {
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
+      "limit": 1
+    },
+    {
+      "type": "estimate_delivery",
+      "name": "Estimated Delivery",
       "limit": 1
     },
     {
