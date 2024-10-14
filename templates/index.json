@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_nFCGeT": {
@@ -499,6 +499,23 @@
         "include_margins": false
       }
     },
+    "featured_blog_VP67Bi": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "The Blog",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "172505507893e3d182": {
       "type": "apps",
       "blocks": {
@@ -516,23 +533,6 @@
       "settings": {
         "include_margins": false
       }
-    },
-    "featured_blog_VP67Bi": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Latest News",
-        "heading_size": "h1",
-        "blog": "news",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "scheme-1",
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -545,7 +545,7 @@
     "collection_list_uncover_Xwcaym",
     "rich_text_GNgxYw",
     "172494080791e28a10",
-    "172505507893e3d182",
-    "featured_blog_VP67Bi"
+    "featured_blog_VP67Bi",
+    "172505507893e3d182"
   ]
 }
