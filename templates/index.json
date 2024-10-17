@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_mNJgWY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/toys-banner.png",
+            "heading": "In Stock Now",
+            "heading_size": "h1",
+            "subheading": "Multiple mind reading effects, packed in to colour pages!",
+            "button_label": "Click Here to Watch TOYS In Action",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
@@ -83,33 +101,14 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_mNJgWY": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/toys-banner.png",
-            "heading": "In Stock Now",
-            "heading_size": "h1",
-            "subheading": "Multiple mind reading effects, packed in to colour pages!",
-            "button_label": "Click Here to Watch TOYS In Action",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_mNJgWY",
         "slide_VnctUJ",
         "slide_dweLWq",
         "slide_3abVRg",
-        "slide_n33itz",
-        "slide_mNJgWY"
+        "slide_n33itz"
       ],
       "settings": {
         "layout": "full_bleed",
