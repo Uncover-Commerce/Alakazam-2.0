@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/spooktacular-sale.png",
             "heading": "SALE NOW ON!",
             "heading_size": "h1",
-            "subheading": "Bag Yourself A Ghoulishly Good Deal!",
+            "subheading": "<strong>Bag Yourself A Ghoulishly Good Deal!</strong>",
             "button_label": "Learn More Here",
             "link": "shopify://collections/flash-sale",
             "button_style_secondary": false,
