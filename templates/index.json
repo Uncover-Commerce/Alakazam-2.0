@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_n33itz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/spooktacular-sale.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Learn More Here",
+            "link": "shopify://collections/flash-sale",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_mNJgWY": {
           "type": "slide",
           "settings": {
@@ -83,32 +101,14 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_n33itz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Block_Wide_Scrolling_Web_Image.jpg",
-            "heading": "BlockHead by Marc Spelmann",
-            "heading_size": "h1",
-            "subheading": "Over 18's Only",
-            "button_label": "Learn More Here",
-            "link": "shopify://products/block-by-marc-spelmann-instant-download",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_n33itz",
         "slide_mNJgWY",
         "slide_VnctUJ",
         "slide_dweLWq",
-        "slide_3abVRg",
-        "slide_n33itz"
+        "slide_3abVRg"
       ],
       "settings": {
         "layout": "full_bleed",
