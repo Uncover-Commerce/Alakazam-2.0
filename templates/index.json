@@ -16,9 +16,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/spooktacular-sale.png",
-            "heading": "",
+            "heading": "SALE NOW ON!",
             "heading_size": "h1",
-            "subheading": "",
+            "subheading": "Tons Of Items At Ghoulishly Low Prices",
             "button_label": "Learn More Here",
             "link": "shopify://collections/flash-sale",
             "button_style_secondary": false,
