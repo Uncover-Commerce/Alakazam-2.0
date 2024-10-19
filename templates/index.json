@@ -12,24 +12,6 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
-        "slide_n33itz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/spook-thinner.png",
-            "heading": "SALE NOW ON!",
-            "heading_size": "h1",
-            "subheading": "<strong>Bag Yourself A Ghoulishly Good Deal!</strong>",
-            "button_label": "Learn More Here",
-            "link": "shopify://collections/flash-sale",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_mNJgWY": {
           "type": "slide",
           "settings": {
@@ -40,6 +22,24 @@
             "button_label": "Click Here to Watch TOYS In Action",
             "link": "shopify://products/toys-by-craig-petty",
             "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_n33itz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/spook-thinner.png",
+            "heading": "SALE NOW ON!",
+            "heading_size": "h1",
+            "subheading": "<strong>Bag Yourself A Ghoulishly Good Deal!</strong>",
+            "button_label": "Learn More Here",
+            "link": "shopify://collections/flash-sale",
+            "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
@@ -104,8 +104,8 @@
         }
       },
       "block_order": [
-        "slide_n33itz",
         "slide_mNJgWY",
+        "slide_n33itz",
         "slide_VnctUJ",
         "slide_dweLWq",
         "slide_3abVRg"
