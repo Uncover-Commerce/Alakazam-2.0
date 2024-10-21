@@ -279,24 +279,24 @@
         "heading_AcbWMi": {
           "type": "heading",
           "settings": {
-            "heading": "Join Our 24/7 Magic Club",
+            "heading": "Become A Member Of Alakazam Unmlimited",
             "heading_size": "h1"
           }
         },
         "text_3FcgXA": {
           "type": "text",
           "settings": {
-            "text": "<p>Join our 24/7 Magic Club over on our Discord server. You can chat to magicians from around the world and get access to live magic lessons and teach-ins and all of this is totally free of charge!</p><p>Don't delay, join the Alakazam Online Magic Club today! All levels of magicians are welcome to join, from the absolute beginner to the seasoned professional!</p>"
+            "text": "<p>Ready to experience the most enchanting magic streaming service in the world? Join <strong>Alakazam Unlimited</strong> today and enjoy a <strong>7-day free trial</strong> with full access to an ever growing library of spellbinding performances, tutorials, and magical shows! </p><p>No tricks, just magic – sign up now and dive into a world of wonder without paying a single penny for the first week!</p><p>Click the link to start your free trial and explore the magic! </p>"
           }
         },
         "button_jJLc7q": {
           "type": "button",
           "settings": {
-            "button_label": "Join Magic Club",
+            "button_label": "Learn More About Alakazam Unlimited Here",
             "button_link": "https://discord.com/invite/4JU9NQeJJg",
             "button_style_secondary": true,
             "button_label_2": "",
-            "button_link_2": "",
+            "button_link_2": "shopify://products/alakazam-unlimted",
             "button_style_secondary_2": false
           }
         }
