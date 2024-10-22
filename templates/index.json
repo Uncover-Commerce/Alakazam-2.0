@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_dweLWq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/755a6cde-d766-40a0-93ca-21fb984f4c3e.jpg",
+            "heading": "BRAND NEW!",
+            "heading_size": "h1",
+            "subheading": "<strong>Can They Avoid The Death Card?</strong>",
+            "button_label": "Watch A FULL Uncut Performance Here!",
+            "link": "https://alakazam.co.uk/products/psycho-by-nikolas-mavresis",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_mNJgWY": {
           "type": "slide",
           "settings": {
@@ -66,25 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_dweLWq": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/755a6cde-d766-40a0-93ca-21fb984f4c3e.jpg",
-            "heading": "In Stock Now",
-            "heading_size": "h1",
-            "subheading": "<strong>Can They Avoid The Death Card?</strong>",
-            "button_label": "Watch The Trailer Here",
-            "link": "https://alakazam.co.uk/products/psycho-by-nikolas-mavresis",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_3abVRg": {
           "type": "slide",
           "settings": {
@@ -105,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_dweLWq",
         "slide_mNJgWY",
         "slide_n33itz",
         "slide_VnctUJ",
-        "slide_dweLWq",
         "slide_3abVRg"
       ],
       "settings": {
