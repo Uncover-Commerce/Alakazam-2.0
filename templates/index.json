@@ -68,11 +68,12 @@
         },
         "slide_dweLWq": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/psycho-banner_3510f44d-d0e8-47b8-a7ef-87284cc6d613.png",
+            "image": "shopify://shop_images/755a6cde-d766-40a0-93ca-21fb984f4c3e.jpg",
             "heading": "In Stock Now",
             "heading_size": "h1",
-            "subheading": "<strong>A Perfect Piece For Halloween</strong>",
+            "subheading": "<strong>Can They Avoid The Death Card?</strong>",
             "button_label": "Watch The Trailer Here",
             "link": "https://alakazam.co.uk/products/psycho-by-nikolas-mavresis",
             "button_style_secondary": false,
