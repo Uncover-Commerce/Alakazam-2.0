@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_3abVRg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/tecan-banner.png",
+            "heading": "IN STOCK NOW!",
+            "heading_size": "h1",
+            "subheading": "Easy, Powerful & Fun!",
+            "button_label": "Watch A Performance Here",
+            "link": "shopify://products/teacan-the-easiest-any-card-at-number-you-will-ever-perform",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_dweLWq": {
           "type": "slide",
           "settings": {
@@ -83,32 +101,14 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_3abVRg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/tecan-banner.png",
-            "heading": "IN STOCK NOW!",
-            "heading_size": "h1",
-            "subheading": "Easy, Powerful & Fun!",
-            "button_label": "Watch A Performance Here",
-            "link": "shopify://products/teacan-the-easiest-any-card-at-number-you-will-ever-perform",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_3abVRg",
         "slide_dweLWq",
         "slide_mNJgWY",
         "slide_n33itz",
-        "slide_VnctUJ",
-        "slide_3abVRg"
+        "slide_VnctUJ"
       ],
       "settings": {
         "layout": "full_bleed",
