@@ -88,10 +88,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/tecan-banner.png",
-            "heading": "",
+            "heading": "IN STOCK NOW!",
             "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Learn More Here",
+            "subheading": "Easy, Powerful & Fun!",
+            "button_label": "Watch A Performance Here",
             "link": "shopify://products/teacan-the-easiest-any-card-at-number-you-will-ever-perform",
             "button_style_secondary": false,
             "box_align": "bottom-left",
