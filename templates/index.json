@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_n33itz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ichange-banner_1.png",
+            "heading": "IN STOCK NOW!",
+            "heading_size": "h1",
+            "subheading": "<strong>The Best Interchange Effect You Will Ever Perform!</strong>",
+            "button_label": "Learn More Here",
+            "link": "shopify://products/ichange-project-instant-interchange-by-peter-nardi",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_3abVRg": {
           "type": "slide",
           "settings": {
@@ -66,24 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_n33itz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/spook-3.png",
-            "heading": "IN STOCK NOW!",
-            "heading_size": "h1",
-            "subheading": "<strong>The Best Interchange Effect You Will Ever Perform!</strong>",
-            "button_label": "Learn More Here",
-            "link": "shopify://products/ichange-project-instant-interchange-by-peter-nardi",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
@@ -104,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_n33itz",
         "slide_3abVRg",
         "slide_dweLWq",
         "slide_mNJgWY",
-        "slide_n33itz",
         "slide_VnctUJ"
       ],
       "settings": {
