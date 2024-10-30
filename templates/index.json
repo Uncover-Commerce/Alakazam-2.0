@@ -16,10 +16,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/liquidforksbanner_1_1.png",
-            "heading": "",
+            "heading": "IN STOCK NOW",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "LIQUID FORKS ARE BACK IN STOCK!",
+            "button_label": "LEARN MORE HERE",
             "link": "shopify://products/liquid-forks",
             "button_style_secondary": true,
             "box_align": "middle-left",
