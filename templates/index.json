@@ -33,12 +33,12 @@
         "slide_n33itz": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/ichange-banner_1.png",
-            "heading": "IN STOCK NOW!",
+            "image": "shopify://shop_images/23ee0429-e38b-4407-90e6-c133e73d2471.png",
+            "heading": "<strong>IN STOCK NOW!</strong>",
             "heading_size": "h1",
-            "subheading": "<strong>The Best Interchange Effect You Will Ever Perform!</strong>",
-            "button_label": "WATCH THE PERFORMANCE",
-            "link": "shopify://products/ichange-project-instant-interchange-by-peter-nardi",
+            "subheading": "",
+            "button_label": "WATCH THE TRAILER HERE!",
+            "link": "shopify://products/bricked-by-drew-perry",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
