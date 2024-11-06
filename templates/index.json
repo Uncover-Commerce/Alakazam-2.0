@@ -12,24 +12,6 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
-        "slide_mNJgWY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/liquidforks_b44cf255-bc04-4af3-977f-182690267753.png",
-            "heading": "IN STOCK NOW",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "LEARN MORE HERE",
-            "link": "shopify://products/liquid-forks",
-            "button_style_secondary": true,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_n33itz": {
           "type": "slide",
           "settings": {
@@ -40,6 +22,24 @@
             "button_label": "WATCH THE TRAILER HERE!",
             "link": "shopify://products/bricked-by-drew-perry",
             "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_mNJgWY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/liquidforks_b44cf255-bc04-4af3-977f-182690267753.png",
+            "heading": "IN STOCK NOW",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "LEARN MORE HERE",
+            "link": "shopify://products/liquid-forks",
+            "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
@@ -104,8 +104,8 @@
         }
       },
       "block_order": [
-        "slide_mNJgWY",
         "slide_n33itz",
+        "slide_mNJgWY",
         "slide_3abVRg",
         "slide_dweLWq",
         "slide_VnctUJ"
