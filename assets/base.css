@@ -3758,9 +3758,31 @@ details-disclosure > details {
 }
 
 #redeem-code {
-  border: 1px solid var(--alakazam-blue);
+  border: 2px solid var(--alakazam-dark-blue);
 }
 
 #redeem-code::placeholder {
-  color: var(--alakazam-orange);
+  color: var(--alakazam-dark-blue);
+  font-size: 14px;
+}
+
+#redeem-code::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: var(--alakazam-dark-blue);
+  font-size: 14px;
+}
+#redeem-code::-moz-placeholder { /* Firefox 19+ */
+  color: var(--alakazam-dark-blue);
+  font-size: 14px;
+}
+#redeem-code:-ms-input-placeholder { /* IE 10+ */
+  color: var(--alakazam-dark-blue);
+  font-size: 14px;
+}
+#redeem-code:-moz-placeholder { /* Firefox 18- */
+  color: var(--alakazam-dark-blue);
+  font-size: 14px;
+}
+#redeem-code::placeholder {
+  color: var(--alakazam-dark-blue);
+  font-size: 14px;
 }
