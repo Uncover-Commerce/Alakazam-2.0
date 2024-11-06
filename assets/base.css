@@ -3756,3 +3756,11 @@ details-disclosure > details {
   }
 
 }
+
+#redeem-code {
+  border: 1px solid var(--alakazam-blue);
+}
+
+#redeem-code::placeholder {
+  color: var(--alakazam-orange);
+}
