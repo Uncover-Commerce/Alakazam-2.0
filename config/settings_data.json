@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/logo-for-dark-background.png",
+    "logo": "shopify://shop_images/xmas-logo_1.png",
     "logo_width": 150,
     "favicon": "shopify://shop_images/logo-for-light-background.png",
     "type_header_font": "lobster_n4",
@@ -36,8 +36,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -81,33 +80,27 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "163406191513f11729": {
         "type": "shopify://apps/growave/blocks/block.embed.socialshopwave-helper/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "16278478101612877664": {
         "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12700074581251677223": {
         "type": "shopify://apps/uplinkly-sticky-cart/blocks/sticky-cart/25fba6ad-75e4-408b-a261-b223e0c71c8b",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "13650390699542216616": {
         "type": "shopify://apps/accessibility-spark-ada-wcag/blocks/widget/36895fac-ec38-47a0-807c-7397daa6ec4e",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -126,14 +119,12 @@
       "4644077978495408606": {
         "type": "shopify://apps/appstle-memberships/blocks/appstle-membership-helper/76528d70-5fbe-48f8-8e19-590d109aa2b7",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "7924418359578431505": {
         "type": "shopify://apps/seoant-ai-seo/blocks/seoant-core/8e57283b-dcb0-4f7b-a947-fb5c57a0d59d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "10605408327587305396": {
         "type": "shopify://apps/eg-auto-add-to-cart/blocks/app-embed/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
@@ -145,32 +136,27 @@
       "10436698916776057164": {
         "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-helper/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "7902831097370503076": {
         "type": "shopify://apps/estimated-delivery-date-eta/blocks/estimated-delivery-days/d8155dd1-6598-4174-aaeb-cbcf85a857bc",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "8605505498557855500": {
         "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "17550530943902319648": {
         "type": "shopify://apps/appikon-back-in-stock/blocks/subscribe_it_helper/eb949c69-b3e6-4216-a322-1cd63915d46d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
