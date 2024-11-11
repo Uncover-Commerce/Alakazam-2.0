@@ -12,7 +12,7 @@
     "image_banner_tGiaiF": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/liquidforks_b44cf255-bc04-4af3-977f-182690267753.png",
+        "image": "shopify://shop_images/tenyobanner.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
