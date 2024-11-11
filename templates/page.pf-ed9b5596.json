@@ -9,13 +9,13 @@
  */
 {
   "sections": {
-    "pf-ceb80528": {
-      "type": "pf-ceb80528",
+    "pf-ed9b5596": {
+      "type": "pf-ed9b5596",
       "settings": {}
     }
   },
   "order": [
-    "pf-ceb80528"
+    "pf-ed9b5596"
   ],
   "layout": "theme.pagefly"
 }
