@@ -166,12 +166,12 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Black Friday Savings",
+        "title": "Red Hot Sellers",
         "heading_size": "h1",
         "description": "<p>Alakazam Magic are not only one of the largest and most respected magic stores in the world but for over three decades we have also been one of the largest manufacturers of unique and original magic ranging from our beginners Amazing Magic Range, DVD's, books, online tutorial videos, stage effects, and more. The Alakazam brand is synonymous with quality and high impact, practical effects that you will love.</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "flash-sale",
+        "collection": "alakazam-magic-tricks",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
