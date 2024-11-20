@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_3abVRg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/loki-banner_1.png",
+            "heading": "IN STOCK NOW!",
+            "heading_size": "h1",
+            "subheading": "Easy, Powerful & Mind Blowing!",
+            "button_label": "Watch The Trailer Here",
+            "link": "shopify://products/loki-by-adam-dadswell",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
@@ -66,25 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_3abVRg": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/loki-banner_1.png",
-            "heading": "IN STOCK NOW!",
-            "heading_size": "h1",
-            "subheading": "Easy, Powerful & Mind Blowing!",
-            "button_label": "Watch The Trailer Here",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_dweLWq": {
           "type": "slide",
           "settings": {
@@ -105,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_3abVRg",
         "slide_VnctUJ",
         "slide_n33itz",
         "slide_mNJgWY",
-        "slide_3abVRg",
         "slide_dweLWq"
       ],
       "settings": {
