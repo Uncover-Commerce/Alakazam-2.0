@@ -68,13 +68,14 @@
         },
         "slide_3abVRg": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/tecan-banner.png",
+            "image": "shopify://shop_images/loki-banner_1.png",
             "heading": "IN STOCK NOW!",
             "heading_size": "h1",
-            "subheading": "Easy, Powerful & Fun!",
-            "button_label": "Watch A Performance Here",
-            "link": "shopify://products/teacan-the-easiest-any-card-at-number-you-will-ever-perform",
+            "subheading": "Easy, Powerful & Mind Blowing!",
+            "button_label": "Watch The Trailer Here",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
