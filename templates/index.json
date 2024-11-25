@@ -12,24 +12,6 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
-        "slide_VnctUJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/blackfridaybanner_eca9c2e0-0ae7-49a4-ba94-c8bb0c19cae1.jpg",
-            "heading": "We Have 100's Of Items At Low Prices!",
-            "heading_size": "h1",
-            "subheading": "It's Time To Snap Up Some Black Friday Bargains!",
-            "button_label": "ACCESS THE SALE HERE",
-            "link": "shopify://collections/flash-sale",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_3abVRg": {
           "type": "slide",
           "settings": {
@@ -41,6 +23,24 @@
             "link": "shopify://products/loki-by-adam-dadswell",
             "button_style_secondary": false,
             "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VnctUJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/blackfridaybanner_eca9c2e0-0ae7-49a4-ba94-c8bb0c19cae1.jpg",
+            "heading": "We Have 100's Of Items At Low Prices!",
+            "heading_size": "h1",
+            "subheading": "It's Time To Snap Up Some Black Friday Bargains!",
+            "button_label": "ACCESS THE SALE HERE",
+            "link": "shopify://collections/flash-sale",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -104,8 +104,8 @@
         }
       },
       "block_order": [
-        "slide_VnctUJ",
         "slide_3abVRg",
+        "slide_VnctUJ",
         "slide_n33itz",
         "slide_mNJgWY",
         "slide_dweLWq"
