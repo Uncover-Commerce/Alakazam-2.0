@@ -12,24 +12,6 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
-        "slide_VnctUJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/blackfridaybanner_eca9c2e0-0ae7-49a4-ba94-c8bb0c19cae1.jpg",
-            "heading": "Save Big!!",
-            "heading_size": "h1",
-            "subheading": "New Offers Added Throughout The Day!",
-            "button_label": "ACCESS THE MEGA DEALS HERE",
-            "link": "shopify://collections/black-friday-mega-deals",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_3abVRg": {
           "type": "slide",
           "settings": {
@@ -41,24 +23,6 @@
             "link": "shopify://products/loki-by-adam-dadswell",
             "button_style_secondary": false,
             "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_n33itz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/23ee0429-e38b-4407-90e6-c133e73d2471.png",
-            "heading": "<strong>IN STOCK NOW!</strong>",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "WATCH THE TRAILER HERE!",
-            "link": "shopify://products/bricked-by-drew-perry",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -84,8 +48,27 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_n33itz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/23ee0429-e38b-4407-90e6-c133e73d2471.png",
+            "heading": "<strong>IN STOCK NOW!</strong>",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "WATCH THE TRAILER HERE!",
+            "link": "shopify://products/bricked-by-drew-perry",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_dweLWq": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/755a6cde-d766-40a0-93ca-21fb984f4c3e.jpg",
             "heading": "PRE-ORDERS NOW BEING TAKEN",
@@ -101,14 +84,33 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_VnctUJ": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/colour-p-banner.png",
+            "heading": "More Stock Just In!",
+            "heading_size": "h1",
+            "subheading": "Colourful, Powerful And Perfect For Close Up, Parlour Or Stage!",
+            "button_label": "WATCH A FULL PERFORMANCE HERE",
+            "link": "shopify://products/color-psychology-by-adam-wilber",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_VnctUJ",
         "slide_3abVRg",
-        "slide_n33itz",
         "slide_mNJgWY",
-        "slide_dweLWq"
+        "slide_n33itz",
+        "slide_dweLWq",
+        "slide_VnctUJ"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -166,12 +168,12 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Black Friday Sale Items",
+        "title": "Alakazam Hot Sellers",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "black-friday-deals-2024",
+        "collection": "alakazam-magic-tricks",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
