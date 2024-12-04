@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_VnctUJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/colour-p-banner.png",
+            "heading": "More Stock Just In!",
+            "heading_size": "h1",
+            "subheading": "Colourful, Powerful And Perfect For Close Up, Parlour Or Stage!",
+            "button_label": "WATCH A FULL PERFORMANCE HERE",
+            "link": "shopify://products/color-psychology-by-adam-wilber",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_3abVRg": {
           "type": "slide",
           "settings": {
@@ -84,33 +102,14 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_VnctUJ": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/colour-p-banner.png",
-            "heading": "More Stock Just In!",
-            "heading_size": "h1",
-            "subheading": "Colourful, Powerful And Perfect For Close Up, Parlour Or Stage!",
-            "button_label": "WATCH A FULL PERFORMANCE HERE",
-            "link": "shopify://products/color-psychology-by-adam-wilber",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_VnctUJ",
         "slide_3abVRg",
         "slide_mNJgWY",
         "slide_n33itz",
-        "slide_dweLWq",
-        "slide_VnctUJ"
+        "slide_dweLWq"
       ],
       "settings": {
         "layout": "full_bleed",
