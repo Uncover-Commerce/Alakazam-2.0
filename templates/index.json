@@ -68,13 +68,14 @@
         },
         "slide_n33itz": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/23ee0429-e38b-4407-90e6-c133e73d2471.png",
-            "heading": "<strong>IN STOCK NOW!</strong>",
-            "heading_size": "h1",
+            "image": "shopify://shop_images/bag-banner.png",
+            "heading": "<strong>NEW TO THE ELITE COIN RANGE!</strong>",
+            "heading_size": "h2",
             "subheading": "",
             "button_label": "WATCH THE TRAILER HERE!",
-            "link": "shopify://products/bricked-by-drew-perry",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
