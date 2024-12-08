@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_n33itz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/bag-banner.png",
+            "heading": "<strong>NEW TO THE ELITE COIN RANGE!</strong>",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "WATCH THE TRAILER HERE!",
+            "link": "shopify://products/bag-reborn-by-craig-petty",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
@@ -66,25 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_n33itz": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/bag-banner.png",
-            "heading": "<strong>NEW TO THE ELITE COIN RANGE!</strong>",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "WATCH THE TRAILER HERE!",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_dweLWq": {
           "type": "slide",
           "disabled": true,
@@ -106,10 +105,10 @@
         }
       },
       "block_order": [
+        "slide_n33itz",
         "slide_VnctUJ",
         "slide_3abVRg",
         "slide_mNJgWY",
-        "slide_n33itz",
         "slide_dweLWq"
       ],
       "settings": {
