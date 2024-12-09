@@ -157,6 +157,11 @@
         "type": "shopify://apps/appikon-back-in-stock/blocks/subscribe_it_helper/eb949c69-b3e6-4216-a322-1cd63915d46d",
         "disabled": false,
         "settings": {}
+      },
+      "7267007828674315154": {
+        "type": "shopify://apps/wholesale-pricing-now-b2b/blocks/wholesale_now_embed/66e7e71e-5250-4f57-93d4-292a1c14afc8",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
