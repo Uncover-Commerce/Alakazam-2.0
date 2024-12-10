@@ -32,14 +32,13 @@
         },
         "slide_VnctUJ": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/triboon-banner.png",
             "heading": "IN STOCK NOW!",
             "heading_size": "h1",
             "subheading": "A Beautifully Simple Production And Vanish Of Coins, And So Much More!",
             "button_label": "WATCH THE TRAILER HERE",
-            "link": "",
+            "link": "shopify://products/tribloon-by-eric-stevens",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
