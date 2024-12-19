@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_mNJgWY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/evap.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "GET IT HERE!",
+            "link": "shopify://products/evaporate-by-henry-ferris",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_n33itz": {
           "type": "slide",
           "settings": {
@@ -66,24 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_mNJgWY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/liquidforks_b44cf255-bc04-4af3-977f-182690267753.png",
-            "heading": "IN STOCK NOW",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "LEARN MORE HERE",
-            "link": "shopify://products/liquid-forks",
-            "button_style_secondary": true,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_dweLWq": {
           "type": "slide",
           "disabled": true,
@@ -105,10 +105,10 @@
         }
       },
       "block_order": [
+        "slide_mNJgWY",
         "slide_n33itz",
         "slide_VnctUJ",
         "slide_3abVRg",
-        "slide_mNJgWY",
         "slide_dweLWq"
       ],
       "settings": {
