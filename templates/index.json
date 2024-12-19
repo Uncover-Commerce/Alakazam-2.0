@@ -12,24 +12,6 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
-        "slide_VnctUJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/triboon-banner_1.png",
-            "heading": "IN STOCK NOW!",
-            "heading_size": "h1",
-            "subheading": "A Beautifully Simple Production And Vanish Of Coins, And So Much More!",
-            "button_label": "WATCH THE TRAILER HERE",
-            "link": "shopify://products/tribloon-by-eric-stevens",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_n33itz": {
           "type": "slide",
           "settings": {
@@ -39,6 +21,24 @@
             "subheading": "",
             "button_label": "WATCH THE TRAILER HERE!",
             "link": "shopify://products/bag-reborn-by-craig-petty",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VnctUJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/triboon-banner_1.png",
+            "heading": "IN STOCK NOW!",
+            "heading_size": "h1",
+            "subheading": "A Beautifully Simple Production And Vanish Of Coins, And So Much More!",
+            "button_label": "WATCH THE TRAILER HERE",
+            "link": "shopify://products/tribloon-by-eric-stevens",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -105,8 +105,8 @@
         }
       },
       "block_order": [
-        "slide_VnctUJ",
         "slide_n33itz",
+        "slide_VnctUJ",
         "slide_3abVRg",
         "slide_mNJgWY",
         "slide_dweLWq"
