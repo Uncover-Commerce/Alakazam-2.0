@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -50,7 +50,7 @@
         "team_member_6jaPbq": {
           "type": "team_member",
           "settings": {
-            "image": "shopify://shop_images/harry.jpg",
+            "image": "shopify://shop_images/IMG_0482.jpg",
             "name": "Harry Nardi (H)",
             "title": "Product Development & PR Marketing",
             "description": "Harry joined the company as part of his apprenticeship in digital marketing. Since then he has been a Britain’s Got Talent 2019 finalist, winning his live semi final outright with his Group 4MG.\n\nAt Alakazam, H heads up our marketing and social media as well as playing a big part in the development of Alakazam products.\n\nHarry is also a working magician who performs at private and corporate functions."
