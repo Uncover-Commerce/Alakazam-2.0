@@ -69,12 +69,12 @@
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/triboon-banner_1.png",
+            "image": "shopify://shop_images/liquidforksbanner_1.png",
             "heading": "IN STOCK NOW!",
             "heading_size": "h1",
-            "subheading": "A Beautifully Simple Production And Vanish Of Coins, And So Much More!",
-            "button_label": "WATCH THE TRAILER HERE",
-            "link": "shopify://products/tribloon-by-eric-stevens",
+            "subheading": "",
+            "button_label": "THE VERY BEST FORKS FOR METAL BENDING!",
+            "link": "shopify://products/liquid-forks",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
