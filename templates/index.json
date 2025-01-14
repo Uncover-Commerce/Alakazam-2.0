@@ -15,11 +15,11 @@
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/liquidforksbanner_1.png",
-            "heading": "",
+            "image": "shopify://shop_images/liquidforks_bb727aa4-bfdc-467b-b84c-9ef2f08e2c58.png",
+            "heading": "Back In Stock!!",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "THE VERY BEST FORKS FOR METAL BENDING ARE BACK IN STOCK!",
+            "button_label": "Learn More Here!",
             "link": "shopify://products/liquid-forks",
             "button_style_secondary": false,
             "box_align": "middle-left",
@@ -293,7 +293,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More About Alakazam Unlimited Here",
-            "button_link": "https://discord.com/invite/4JU9NQeJJg",
+            "button_link": "",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "shopify://products/alakazam-unlimted",
