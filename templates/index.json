@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_n33itz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/hoodie-banner.png",
+            "heading": "<strong>Back In Stock</strong>",
+            "heading_size": "h2",
+            "subheading": "<strong>Show Off Your Magic Roots with the AlakaFam Hoodie! </strong>Slip into the comfiest, cosiest hoodie that lets the world know you’re part of the Alakazam family.Perfect for lounging, performing, or just showing off your love for the magical community, the <strong>AlakaFam Hoodie</strong> is more than just merch—it’s a statement.! <strong>Join the family. Wear the magic.</strong> Get yours today!",
+            "button_label": "LEARN MORE HERE",
+            "link": "shopify://products/alakazam-official-hoodie",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
@@ -66,24 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_n33itz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/bag-banner.png",
-            "heading": "<strong>NEW TO THE ELITE COIN RANGE!</strong>",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "WATCH THE TRAILER HERE!",
-            "link": "shopify://products/bag-reborn-by-craig-petty",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_3abVRg": {
           "type": "slide",
           "settings": {
@@ -104,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_n33itz",
         "slide_VnctUJ",
         "slide_dweLWq",
         "slide_mNJgWY",
-        "slide_n33itz",
         "slide_3abVRg"
       ],
       "settings": {
