@@ -86,13 +86,14 @@
         },
         "slide_mNJgWY": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/evap.jpg",
-            "heading": "",
+            "image": "shopify://shop_images/open-p-banner.png",
+            "heading": "IN STOCK NOW!",
             "heading_size": "h1",
-            "subheading": "",
+            "subheading": "<strong>An impossible prediction with a visual reveal!</strong>",
             "button_label": "GET IT HERE!",
-            "link": "shopify://products/evaporate-by-henry-ferris",
+            "link": "",
             "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
