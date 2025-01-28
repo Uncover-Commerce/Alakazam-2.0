@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_mNJgWY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/open-p-banner.png",
+            "heading": "IN STOCK NOW!",
+            "heading_size": "h1",
+            "subheading": "<strong>An impossible prediction with a visual reveal!</strong>",
+            "button_label": "GET IT HERE!",
+            "link": "shopify://products/open-minded-by-eric-steves-ml",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_3abVRg": {
           "type": "slide",
           "settings": {
@@ -83,33 +101,14 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_mNJgWY": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/open-p-banner.png",
-            "heading": "IN STOCK NOW!",
-            "heading_size": "h1",
-            "subheading": "<strong>An impossible prediction with a visual reveal!</strong>",
-            "button_label": "GET IT HERE!",
-            "link": "shopify://products/open-minded-by-eric-steves-ml",
-            "button_style_secondary": true,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_mNJgWY",
         "slide_3abVRg",
         "slide_n33itz",
         "slide_VnctUJ",
-        "slide_dweLWq",
-        "slide_mNJgWY"
+        "slide_dweLWq"
       ],
       "settings": {
         "layout": "full_bleed",
