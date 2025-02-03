@@ -4,7 +4,7 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 {% endcomment %}
 
 {% render 'pf-2c9f8a8a-css' %}
-<style>#pagefly-fav-btn{background-color:#fc6505ff;color:#fff;padding:20px;border:none;border-radius:5px;cursor:pointer;font-size:20px;font-variant:small-caps;font-family:Helvetica Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif,Haettenschweiler,'Helvetica, sans-serif;
+<style>#pagefly-fav-btn{background-color:#fc6505ff;color:#fff;padding:20px;border:none;border-radius:5px;cursor:pointer;font-size:20px;font-variant:small-caps;text-transform:capitalize;font-family:Helvetica Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif,Haettenschweiler,'Helvetica, sans-serif;
 
 }
 
@@ -21,22 +21,22 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   let pageURL = window.location.href;
   let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
-  // Check if the page is already favorited
-  function isFavorited() {
+  // Check if the page is already favourited
+  function isFavourited() {
     return favorites.some(fav => fav.url === pageURL);
   }
 
-  // Update button text based on favorite status
+  // Update button text based on favourite status
   function updateButton() {
-    favButton.innerText = isFavorited() ? "✅ Favorited" : "Favorite this page";
+    favButton.innerText = isFavourited() ? "✅ FAVOURITED" : "FAVOURITE THIS PAGE";
   }
 
   // Set initial button text
   updateButton();
 
-  // Add click event listener to toggle favorite
+  // Add click event listener to toggle favourite
   favButton.addEventListener("click", function () {
-    if (isFavorited()) {
+    if (isFavourited()) {
       favorites = favorites.filter(fav => fav.url !== pageURL);
     } else {
       favorites.push({ title: pageTitle, url: pageURL });
