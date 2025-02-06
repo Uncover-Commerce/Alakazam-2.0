@@ -15,12 +15,12 @@
         "slide_mNJgWY": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/open-p-banner.png",
+            "image": "shopify://shop_images/brainwave-banner.png",
             "heading": "IN STOCK NOW!",
             "heading_size": "h1",
-            "subheading": "<strong>An impossible prediction with a visual reveal!</strong>",
+            "subheading": "<strong>The Perfect Sure Fire Opener</strong>",
             "button_label": "GET IT HERE!",
-            "link": "shopify://products/open-minded-by-eric-steves-ml",
+            "link": "shopify://products/nardis-brainwave-by-peter-nardi",
             "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -488,7 +488,10 @@
       "blocks": {
         "growave_loyalty_wishlist_block_index_reviews_slider_Ab3MM8": {
           "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.index.ReviewsSlider/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {}
+          "settings": {
+            "lowest_rating": "4",
+            "only_pinned_reviews": false
+          }
         }
       },
       "block_order": [
