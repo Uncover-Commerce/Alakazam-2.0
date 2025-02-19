@@ -21,6 +21,10 @@
     "social_youtube_link": "https://www.youtube.com/user/AlakazamMagicUK",
     "social_tiktok_link": "https://www.tiktok.com/@alakazammagicshop",
     "social_twitter_link": "https://twitter.com/alakazammagic",
+    "cart_drawer_shipping_bar_enable": true,
+    "cart_drawer_shipping_bar_free_shipping_rate_pounds": 40,
+    "cart_drawer_shipping_bar_free_shipping_rate_dollars": 50,
+    "cart_drawer_shipping_bar_free_shipping_rate_euros": 50,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
