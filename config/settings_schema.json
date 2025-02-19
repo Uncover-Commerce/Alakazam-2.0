@@ -1472,7 +1472,7 @@
         "type": "checkbox",
         "id": "cart_drawer_shipping_bar_enable",
         "label": "Enable free shipping bar",
-        "default": true
+        "default": false
       },
       {
         "type": "richtext",
