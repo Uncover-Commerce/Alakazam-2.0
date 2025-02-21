@@ -12,24 +12,6 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
-        "slide_mNJgWY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/brainwave-banner.png",
-            "heading": "IN STOCK NOW!",
-            "heading_size": "h1",
-            "subheading": "<strong>The Perfect Sure Fire Opener</strong>",
-            "button_label": "GET IT HERE!",
-            "link": "shopify://products/nardis-brainwave-by-peter-nardi",
-            "button_style_secondary": true,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_dweLWq": {
           "type": "slide",
           "settings": {
@@ -40,6 +22,24 @@
             "button_label": "Watch A FULL Uncut Performance Here!",
             "link": "https://alakazam.co.uk/products/the-reaper-by-peter-nardi?_pos=1&_psq=reaper&_ss=e&_v=1.0",
             "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_mNJgWY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/brainwave-banner.png",
+            "heading": "IN STOCK NOW!",
+            "heading_size": "h1",
+            "subheading": "<strong>The Perfect Sure Fire Opener</strong>",
+            "button_label": "GET IT HERE!",
+            "link": "shopify://products/nardis-brainwave-by-peter-nardi",
+            "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
@@ -105,8 +105,8 @@
         }
       },
       "block_order": [
-        "slide_mNJgWY",
         "slide_dweLWq",
+        "slide_mNJgWY",
         "slide_3abVRg",
         "slide_n33itz",
         "slide_VnctUJ"
