@@ -68,12 +68,13 @@
         },
         "slide_n33itz": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pierced-banner.png",
             "heading": "<strong>SMASH & STAB REIMAGINED</strong>",
             "heading_size": "h2",
             "subheading": "<strong>THE PERFECT 'FREAK THEM OUT' ROUTINE! </strong>",
-            "button_label": "CLICK HERE FOR SPONGE GOODIES",
+            "button_label": "WATCH THE TRAILER HERE",
             "link": "shopify://products/pierced-by-simon-lipkin",
             "button_style_secondary": true,
             "box_align": "middle-left",
