@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_n33itz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pierced-banner.png",
+            "heading": "<strong>SMASH & STAB REIMAGINED</strong>",
+            "heading_size": "h2",
+            "subheading": "<strong>THE PERFECT 'FREAK THEM OUT' ROUTINE! </strong>",
+            "button_label": "WATCH THE TRAILER HERE",
+            "link": "shopify://products/pierced-by-simon-lipkin",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_dweLWq": {
           "type": "slide",
           "settings": {
@@ -66,25 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_n33itz": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/pierced-banner.png",
-            "heading": "<strong>SMASH & STAB REIMAGINED</strong>",
-            "heading_size": "h2",
-            "subheading": "<strong>THE PERFECT 'FREAK THEM OUT' ROUTINE! </strong>",
-            "button_label": "WATCH THE TRAILER HERE",
-            "link": "shopify://products/pierced-by-simon-lipkin",
-            "button_style_secondary": true,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
@@ -105,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_n33itz",
         "slide_dweLWq",
         "slide_mNJgWY",
         "slide_3abVRg",
-        "slide_n33itz",
         "slide_VnctUJ"
       ],
       "settings": {
