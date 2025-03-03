@@ -1,0 +1,21 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-17f3d44c": {
+      "type": "pf-17f3d44c",
+      "settings": {}
+    }
+  },
+  "order": [
+    "pf-17f3d44c"
+  ],
+  "layout": "theme.pagefly"
+}
