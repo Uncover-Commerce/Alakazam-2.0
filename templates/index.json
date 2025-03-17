@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_3abVRg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/nochancebanner.png",
+            "heading": "No Chance Dice Complete Set",
+            "heading_size": "h1",
+            "subheading": "FINALLY BACK IN STOCK AFTER YEARS OF BEING UNAVAILABLE!",
+            "button_label": "GET YOUR SET HERE",
+            "link": "shopify://products/no-chance-dice-set-by-alakazam-magic",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_n33itz": {
           "type": "slide",
           "settings": {
@@ -66,24 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_3abVRg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/oasisbanner.png",
-            "heading": "THE EASIEST BOOKTEST EVER!",
-            "heading_size": "h1",
-            "subheading": "Easy, Powerful & Mind Blowing!",
-            "button_label": "Watch The Trailer Here",
-            "link": "shopify://products/oasis-booktest-by-clint-barron",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
@@ -104,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_3abVRg",
         "slide_n33itz",
         "slide_dweLWq",
         "slide_mNJgWY",
-        "slide_3abVRg",
         "slide_VnctUJ"
       ],
       "settings": {
