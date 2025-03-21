@@ -12,6 +12,24 @@
     "slideshow_nFCGeT": {
       "type": "slideshow",
       "blocks": {
+        "slide_mNJgWY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/sharpie-banner.png",
+            "heading": "BACK IN STOCK!",
+            "heading_size": "h1",
+            "subheading": "<strong>A Regular Sharpie Melts Through A Playing Card Like A Hot Knife Through Butter!</strong>",
+            "button_label": "LEARN MORE HERE",
+            "link": "shopify://products/sharpie-through-card-stc-by-peter-nardi",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_3abVRg": {
           "type": "slide",
           "settings": {
@@ -66,24 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_mNJgWY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/sharpie-banner.png",
-            "heading": "BACK IN STOCK!",
-            "heading_size": "h1",
-            "subheading": "<strong>A Regular Sharpie Melts Through A Playing Card Like A Hot Knife Through Butter!</strong>",
-            "button_label": "LEARN MORE HERE",
-            "link": "shopify://products/sharpie-through-card-stc-by-peter-nardi",
-            "button_style_secondary": true,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_VnctUJ": {
           "type": "slide",
           "settings": {
@@ -104,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_mNJgWY",
         "slide_3abVRg",
         "slide_n33itz",
         "slide_dweLWq",
-        "slide_mNJgWY",
         "slide_VnctUJ"
       ],
       "settings": {
