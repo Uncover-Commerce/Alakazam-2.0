@@ -69,10 +69,10 @@
         "slide_mNJgWY": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/brainwave-banner.png",
+            "image": "shopify://shop_images/sharpie-banner.png",
             "heading": "BACK IN STOCK!",
             "heading_size": "h1",
-            "subheading": "<strong>A Regular Sharpie Melts Through a Playing Card Like A Hot Knife Through Butter!</strong>",
+            "subheading": "<strong>A Regular Sharpie Melts Through A Playing Card Like A Hot Knife Through Butter!</strong>",
             "button_label": "LEARN MORE HERE",
             "link": "shopify://products/sharpie-through-card-stc-by-peter-nardi",
             "button_style_secondary": true,
